@@ -1,62 +1,90 @@
 # switch_local_company_in_6_month
 
-২০২৬-০৯-১৪ থেকে ২০২৭-০৩-১২: বাংলাদেশি কোম্পানিতে ২০টা আবেদন আর ৫টা interview process — ১৮০ দিন, প্রতিদিন একটা করার কাজ, শেখার বিজ্ঞান মেনে।
+২০২৬-০৯-১৪ থেকে ২০২৭-০৩-১২ পর্যন্ত ১৮০ দিনের plan: বাংলাদেশি কোম্পানিতে ২০টা আবেদন আর অন্তত ৫টা সম্পূর্ণ interview process। প্রতিদিন একটা করে করার কাজ, শেখার বিজ্ঞান মেনে।
 
-লাইভ: https://sojibrd.github.io/switch_local_company_in_6_month/
+এটা `switch_company_in_24_month`-এর মাস ০০–০৬-কে দিনে ভেঙে লেখা। নতুন কোনো লক্ষ্য বা সংখ্যা যোগ করে না। শুধু লোকাল; রিমোট আবেদন ২৪ মাসের plan-এ।
 
-## সত্যের উৎস
+**লাইভ:** https://sojibrd.github.io/switch_local_company_in_6_month/
 
-`docs/`-এর ফাইলগুলো — সাইটে কোনো ব্লক, দিন, তারিখ বা কাজ হার্ডকোড নেই; ফাইল বদলালে পরের build-এ সাইট বদলায়।
+## Functional Requirement
 
-- [`docs/00-rules.md`](docs/00-rules.md) — লক্ষ্য, সপ্তাহের ছন্দ, শেখার নিয়ম, ঝালাই, Dip-এর নিয়ম।
-- `docs/01-…06-*.md` — ৩০ দিনের ৬টা ব্লক।
+- **আজ (`/`):** ক্যালেন্ডারের আজকের দিনের কাজ দেখায়। ক্রম: dip-এর সতর্কতা → জমে থাকা ⚑ মাইলফলক → আজকের ঝালাই → আজকের দিন।
+- **Rail:** সব পাতায় বাঁয়ে একটা rail থাকে, মোবাইলে drawer। তাতে ৩টা পাতার লিংক, ১৮০ দিনের gauge আর ৬টা ব্লক; যে ব্লক খোলা শুধু তার দিনগুলো দেখায়।
+- **দিন (`/day/<nnn>/`):** এক দিনের কাজ, আর দিন শেষের হ্যাঁ/না।
+- **ব্লক (`/block/<slug>/`):** ব্লকের ভূমিকা, ৩০ দিনের সারি, আর ব্লক শেষের হ্যাঁ/না।
+- **ঝালাই (`/review/`):** প্রতিটা 🔁 কাজ টিকের দিন থেকে ১/৩/৭/২১ দিন পরে ফিরে আসে। "মনে ছিল" দিলে পরের ধাপে যায়, "আটকে গেছি" দিলে আজ থেকে আবার ১ দিনে।
+- **নিয়ম (`/rules/`):** `docs/00-rules.md` হুবহু।
+- **কাজে টিক:** টিক দিলে শেষের তারিখ জমা হয়। 🧠 chip চাপলে এক লাইনে দেখায় কেন কাজটা এভাবে, সাথে `learning_to_learn` সাইটের লিংক।
 
-এই plan `switch_company_in_24_month/docs/24-month-plan.md`-এর মাস ০০–০৬-এর **দিন-স্তরের বিস্তার** — নতুন লক্ষ্য বা সংখ্যা যোগ করে না। তথ্য বদলালে ক্রম: `legacy_and_wisdom/docs/ASSUMPTIONS.md` → `brainstorming/` → ২৪ মাসের plan → এই ফোল্ডার।
+## Non-Functional Requirement
 
-## পাতা
+- **সত্যের উৎস `docs/`।** কোডে কোনো ব্লক, দিন, তারিখ বা কাজ হার্ডকোড নেই; দিন গোনাও কোডে নয়, তারিখ ফাইলে লেখা।
+- **"আজ" = ক্যালেন্ডারের তারিখ।** plan পেছায় না। বাদ পড়া সাধারণ কাজ ফেরে না; শুধু ⚑ জমে থাকে।
+- **ঝালাই স্বয়ংক্রিয়।** হাতে যোগ করার queue নেই।
+- **Static export → GitHub Pages।** Backend নেই।
+- **Progress শুধু `localStorage`-এ,** একমাত্র `app/hooks/useProgress.ts` দিয়ে।
+- **`app/lib/plan.ts` server-only।**
+- **Theme contract অলঙ্ঘনীয়, সাইট dark-only।** Tailwind শুধু লেআউটে; চেহারা role class আর `--t-*` টোকেনে। গড়ন `dsa_prep` / `switch_company_in_24_month`-এর মতো।
+- **স্ট্যাক:** Next.js 16, React 19, TypeScript, Tailwind v4, react-markdown।
 
-| পাতা | কী | শেখার কোন নীতি |
+## ডক ইনডেক্স
+
+### নিয়ম
+
+| ফাইল | Gist |
+|---|---|
+| [docs/00-rules.md](docs/00-rules.md) | ১৮০ দিনের সব নিয়ম: লক্ষ্য (২০ আবেদন, ৫ process — offer নয়), সত্যের উৎসের ক্রম, চিহ্নের মানে (`৩০′` 🧠 🔁 ⚑ ⏳), "আজ" মানে ক্যালেন্ডারের আজ, সপ্তাহের ৭ ঘণ্টার ছন্দ, DSA ও STAR-এর বসার ধাপ, ঝালাই, আবেদন আর interview-এর নিয়ম, Dip-এর নিয়ম, যা করবেন না, টাকা, দিন ১৮০-র পরে |
+
+### ৩০ দিনের ৬টা ব্লক
+
+| ফাইল | দিন | Gist |
 |---|---|---|
-| সব পাতা | বাঁয়ে rail: ৩ পাতা, ১৮০ দিনের gauge, ৬ ব্লক (খোলা ব্লকের দিনগুলো); মোবাইলে drawer | Create a roadmap |
-| `/` আজ | ক্যালেন্ডারের আজকের দিন; dip-এর সতর্কতা; জমে থাকা ⚑; আজকের ঝালাই | Pareto · The dip · Spaced repetition |
-| `/day/<nnn>/` | একটা দিনের কাজ + দিন-শেষের হ্যাঁ/না | System vs goal · Test yourself |
-| `/block/<slug>/` | ব্লকের ভূমিকা, ৩০ দিনের সারি, ব্লক-শেষের হ্যাঁ/না | Create a roadmap |
-| `/review/` ঝালাই | প্রতিটা 🔁 কাজ, টিকের দিন থেকে ১/৩/৭/২১ দিনে | Spaced repetition · Test yourself |
-| `/rules/` নিয়ম | `00-rules.md` হুবহু | — |
+| [docs/01-ignition.md](docs/01-ignition.md) | ০০১–০৩০ | প্রথম সপ্তাহে কাগজপত্র আর প্রথম আবেদন; তারপর আবেদন, DSA (দিন ০০৮ থেকে) আর STAR একসাথে। শেষে: ৬টা story, ৯টা README, ৮টা আবেদন |
+| [docs/02-stories.md](docs/02-stories.md) | ০৩১–০৬০ | লেখা story আর README মুখে বলার মতো করা: ৬০ সেকেন্ডের "Tell me about yourself", প্রজেক্ট নিয়ে ১০ মিনিট টানা কথা। DSA-র ৩০টা ২০২৬-১০-৩০-এ শেষ। শেষে: ১৭টা আবেদন |
+| [docs/03-applications.md](docs/03-applications.md) | ০৬১–০৯০ · dip | ২০২৬-১১-৩০-এর মধ্যে ২০টা আবেদন, তারপর ফানেল পড়া; follow-up প্রশ্নে story টেকানো, কলের আগের ৩০ মিনিট। dip-এর শুরু |
+| [docs/04-hr-calls.md](docs/04-hr-calls.md) | ০৯১–১২০ · dip | HR call-এর চারটা প্রশ্ন (নিজের পরিচয়, কেন বদল, বেতন, notice period) আর mock #১। আবেদন এখন থেকে সপ্তাহে ২টা |
+| [docs/05-technical.md](docs/05-technical.md) | ১২১–১৫০ · dip | চার ধরনের কারিগরি রাউন্ড (take-home, live coding, framework আলোচনা, frontend system design)। নতুন DSA নয়; নিজের প্রজেক্টের design doc; mock #২ |
+| [docs/06-five-processes.md](docs/06-five-processes.md) | ১৫১–১৮০ · dip | Behavioral-এ ছয় story খাটানো, interview নোট থেকে সিলেবাস, ফানেলের শেষ রায়, পুরো process এক বসায় (mock #৪)। শেষ সপ্তাহে শুধু ঝালাই |
 
-প্রতিটা 🧠 chip চাপলে এক লাইনে **কেন** কাজটা এভাবে, আর `learning_to_learn` সাইটে ঐ নীতির লিংক।
+### এজেন্ট ফাইল
 
-## ব্লক ফাইলের যে ছাঁচ parser মানে
+| ফাইল | Gist |
+|---|---|
+| [AGENTS.md](AGENTS.md) | `next dev`-এর বসানো ব্লক: এই Next.js 16-এর API আলাদা, কোড লেখার আগে `node_modules/next/dist/docs/` পড়ুন। প্রজেক্টের নিয়ম workspace-এর `AGENTS.md`-এ |
+| [CLAUDE.md](CLAUDE.md) | শুধু `@AGENTS.md` |
 
-`app/lib/plan.ts` `docs/`-এর `^\d\d-.*\.md` ফাইল স্ক্যান করে (`00-rules.md` = নিয়ম, বাকিগুলো ব্লক)। route নাম ফাইলনাম থেকে: `01-ignition.md` → `/block/ignition/`। এগুলো বদলালে parser-ও বদলাতে হবে:
+## প্রজেক্ট-নির্দিষ্ট নিয়ম
+
+### তথ্য বদলানোর ক্রম
+
+`legacy_and_wisdom/docs/ASSUMPTIONS.md` → `brainstorming/` → `switch_company_in_24_month/docs/24-month-plan.md` (মাস ০০–০৬) → এই ফোল্ডারের `docs/`।
+
+### ব্লক ফাইলের যে ছাঁচ parser মানে
+
+`app/lib/plan.ts` `docs/`-এর `^\d\d-.*\.md` ফাইল স্ক্যান করে। `00-rules.md` হলো নিয়ম, বাকিগুলো ব্লক। route আসে ফাইলনাম থেকে নম্বর বাদ দিয়ে (`01-ignition.md` → `/block/ignition/`)। ছাঁচ বদলালে parser-ও বদলাতে হবে।
 
 - `# ব্লক ১ — নাম` — প্রথম H1; "— "-এর পরের অংশ rail-এ দেখায়।
-- `*দিন ০০১–০৩০ · YYYY-MM-DD → YYYY-MM-DD · dip*` — H1-এর নিচের italic লাইন; শেষে `· dip` থাকলে হোমে Dip-এর সতর্কতা।
-- `> **ব্লক শেষে:** …` — ব্লক-শেষের প্রশ্ন।
-- `### দিন ০০৭ · YYYY-MM-DD · শিরোনাম` — দিন। তারিখ ফাইলে লেখা, কোডে হিসাব নয়; "আজ" = যে দিনের তারিখ আজ।
-- `- [ ] ৩০′ …` — কাজ। শুরুর `৩০′` = মিনিট; `⚑` = মাইলফলক; `🔁` = ঝালাই হবে; শেষে `🧠 (নাম · নাম)` = নীতির chip।
-- `> **দিন শেষে:** …` — দিন-শেষের প্রশ্ন।
+- `*দিন ০০১–০৩০ · YYYY-MM-DD → YYYY-MM-DD · dip*` — H1-এর নিচের italic লাইন। শেষে `· dip` থাকলে হোমে Dip-এর সতর্কতা আসে।
+- `> **ব্লক শেষে:** …` — ব্লক শেষের প্রশ্ন।
+- `### দিন ০০৭ · YYYY-MM-DD · শিরোনাম` — দিন।
+- `- [ ] ৩০′ …` — কাজ। `৩০′` = মিনিট; `⚑` = মাইলফলক; `🔁` = ঝালাই হবে; শেষে `🧠 (নাম · নাম)` = নীতির chip।
+- `> **দিন শেষে:** …` — দিন শেষের প্রশ্ন।
+- নতুন 🧠 নাম লিখলে তার এক লাইনের ব্যাখ্যা `app/lib/principles.ts`-এ যোগ করুন।
 
-নতুন 🧠 নাম লিখলে তার এক-লাইনের ব্যাখ্যা `app/lib/principles.ts`-এ যোগ করুন; না করলে chip দেখায়, ব্যাখ্যা দেখায় না।
+### Progress key
 
-## Progress
-
-সব ব্রাউজারের `localStorage`-এ, একমাত্র `app/hooks/useProgress.ts` দিয়ে:
-
-- `slc6:v1:task` — কাজের টিক, মান = কাজ শেষের তারিখ (`"YYYY-MM-DD"`)। key = দিন + কাজের **লেখা** থেকে hash: কাজ আগে-পরে যোগ করলে টিক টেকে, কিন্তু লেখা বদলালে ঐ কাজের টিক হারায়।
-- `slc6:v1:check` — দিন-শেষ (`d007`) ও ব্লক-শেষ (`b1`) হ্যাঁ/না।
-- `slc6:v1:review` — 🔁 কাজের ঝালাইয়ের অবস্থা `{ base, step }`। না থাকলে = `{ কাজ শেষের তারিখ, 0 }`; "আটকে গেছি" → `{ আজ, 0 }`।
+| key | মান |
+|---|---|
+| `slc6:v1:task` | কাজ শেষের তারিখ `"YYYY-MM-DD"`। id = দিন + কাজের **লেখা** থেকে hash — লেখা বদলালে ঐ কাজের টিক হারায় |
+| `slc6:v1:check` | দিন শেষ (`d007`) ও ব্লক শেষ (`b1`)-এর হ্যাঁ/না |
+| `slc6:v1:review` | 🔁 কাজের ঝালাইয়ের অবস্থা `{ base, step }`। না থাকলে `{ কাজ শেষের তারিখ, 0 }`; "আটকে গেছি" → `{ আজ, 0 }` |
 
 ## চালানো
 
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build    # out/
+npm run build    # static export → out/
 ```
 
-push করলে `.github/workflows/deploy.yml` GitHub Pages-এ তোলে।
-
-## চেহারা
-
-workspace-এর বাকি সাইটের মতো `system_design`-এর dark-only control-room Theme Contract, আর গড়ন `dsa_prep`-এর: rail + ডানের pane একা স্ক্রল, দিন একটা panel, কাজ `surface-raised` card + `.check`। আইকন inline (`app/components/icons.tsx`)। কম্পোনেন্টে কোনো ভিজ্যুয়াল ক্লাস নয় — Tailwind শুধু লেআউটে, চেহারা `app/globals.css`-এর role class আর `app/themes/control-room.css`-এর `--t-*` টোকেনে।
+push করলে `.github/workflows/deploy.yml` সাইটটা GitHub Pages-এ তোলে।
