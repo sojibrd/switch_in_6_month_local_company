@@ -3,15 +3,15 @@
 import { useEffect, useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
 import type { IndexBlock } from "../lib/plan";
-import { currentDayIndex, todayISO, toBnDigits } from "../lib/dates";
+import { currentDayIndex, dayDate, todayISO, toBnDigits } from "../lib/dates";
 import { useMounted, useProgress } from "../hooks/useProgress";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import { PanelLeftOpen } from "./icons";
 
 /**
- * সব পাতার chassis — local_company_dsa_prep-এর মতো: বাঁয়ে rail (৬ ব্লক, খোলা ব্লকের দিন),
- * মোবাইলে drawer, আর ডানের pane একা স্ক্রল হয়।
+ * সব পাতার chassis — বাঁয়ে rail (ব্লক, খোলা ব্লকের দিন), মোবাইলে drawer, আর
+ * ডানের pane একা স্ক্রল হয়।
  *
  * Layout-এ থাকে, পাতায় নয় — তাই পাতা বদলালেও rail একটাই থাকে, ভাঁজ করা
  * অবস্থাও টিকে থাকে। হোমের মূল অংশে তবু শুধু আজ; পুরো পথ rail-এ।
@@ -19,7 +19,7 @@ import { PanelLeftOpen } from "./icons";
 export default function Shell({ blocks, children }: { blocks: IndexBlock[]; children: React.ReactNode }) {
   const pathname = usePathname();
   const mounted = useMounted();
-  const { doneCount } = useProgress();
+  const { start, doneCount } = useProgress();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
 
@@ -31,10 +31,16 @@ export default function Shell({ blocks, children }: { blocks: IndexBlock[]; chil
 
   const done = mounted ? doneCount(allIds) : 0;
   const percent = allIds.length > 0 ? Math.round((done / allIds.length) * 100) : 0;
-  const range = days.length > 0 ? `${toBnDigits(days[0].date)} → ${toBnDigits(days[days.length - 1].date)}` : "";
+  const last = days[days.length - 1];
+
+  /* শুরুর তারিখ ব্রাউজারে থাকে — না থাকলে শুধু দিনের সংখ্যা */
+  const range =
+    mounted && start && last
+      ? `${toBnDigits(start)} → ${toBnDigits(dayDate(start, last.num))}`
+      : `${toBnDigits(days.length)} দিন`;
 
   /* "আজ" build-এর দিন নয়, পড়ার দিন — তাই mount-এর পরে */
-  const todayDay = mounted ? days[currentDayIndex(days, todayISO())] : undefined;
+  const todayDay = mounted && start ? days[currentDayIndex(days, start, todayISO())] : undefined;
 
   const path = pathname.endsWith("/") ? pathname : `${pathname}/`;
   const dayOnPage = /^\/day\/([^/]+)\/$/.exec(path)?.[1];
@@ -71,6 +77,7 @@ export default function Shell({ blocks, children }: { blocks: IndexBlock[]; chil
     percent,
     done,
     total: allIds.length,
+    dayCount: days.length,
   };
 
   return (

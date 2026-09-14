@@ -6,8 +6,8 @@ import { slugify } from "./lib/slug";
 
 export default function HomePage() {
   const rules = getRules();
-  /* নিয়মের heading থেকেই anchor — heading বদলালে লিংক নিজে বদলায় */
-  const dipHeading = /^##\s+(Dip-এর নিয়ম.*)$/m.exec(rules.body)?.[1] ?? "";
+  /* নিয়মের heading থেকেই anchor — heading বদলালে লিংক নিজে বদলায়; না থাকলে সতর্কতার লিংক নেই */
+  const dipHeading = /^##\s+(Dip-এর নিয়ম.*)$/m.exec(rules.body)?.[1];
 
   return (
     <>
@@ -17,7 +17,7 @@ export default function HomePage() {
           {rules.goal}
         </Markdown>
       </header>
-      <TodayView days={getDays()} dipHref={`/rules/#${slugify(dipHeading)}`} />
+      <TodayView days={getDays()} dipHref={dipHeading ? `/rules/#${slugify(dipHeading)}` : null} />
     </>
   );
 }

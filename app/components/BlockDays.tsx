@@ -2,17 +2,17 @@
 
 import Link from "next/link";
 import type { IndexBlock } from "../lib/plan";
-import { todayISO, toBnDigits } from "../lib/dates";
+import { dayDate, todayISO, toBnDigits } from "../lib/dates";
 import ProgressReadout from "./ProgressReadout";
 import { useMounted, useProgress } from "../hooks/useProgress";
 
 /**
- * একটা ব্লকের ৩০ দিন এক নজরে — কোথায় আছি, কোন দিনে "হ্যাঁ", কোথায় কাজ বাকি।
+ * একটা ব্লকের দিনগুলো এক নজরে — কোথায় আছি, কোন দিনে "হ্যাঁ", কোথায় কাজ বাকি।
  * কাজের লেখা দিনের পাতায়। 🧠 Create a roadmap
  */
 export default function BlockDays({ block }: { block: IndexBlock }) {
   const mounted = useMounted();
-  const { doneCount, answerFor } = useProgress();
+  const { start, doneCount, answerFor } = useProgress();
 
   const today = mounted ? todayISO() : "";
   const ids = block.days.flatMap((day) => day.taskIds);
@@ -33,7 +33,8 @@ export default function BlockDays({ block }: { block: IndexBlock }) {
         {block.days.map((day) => {
           const dayDone = mounted ? doneCount(day.taskIds) : 0;
           const answer = mounted ? answerFor(`d${day.code}`) : undefined;
-          const isToday = day.date === today;
+          const date = mounted && start ? dayDate(start, day.num) : null;
+          const isToday = date === today;
           return (
             <li key={day.code}>
               <Link
@@ -43,7 +44,7 @@ export default function BlockDays({ block }: { block: IndexBlock }) {
               >
                 <span className="shrink-0 text-xs">{day.label}</span>
                 <span className="min-w-0 flex-1 truncate">{day.title}</span>
-                <span className="hidden shrink-0 text-xs sm:inline">{toBnDigits(day.date)}</span>
+                {date && <span className="hidden shrink-0 text-xs sm:inline">{toBnDigits(date)}</span>}
                 {isToday && <span className="chip chip--accent shrink-0">আজ</span>}
                 {answer === "yes" && <span className="chip chip--ok shrink-0">হ্যাঁ</span>}
                 {answer === "no" && <span className="chip chip--alert shrink-0">না</span>}

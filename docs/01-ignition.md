@@ -1,51 +1,51 @@
 # ব্লক ১ — ইগনিশন
 
-*দিন ০০১–০৩০ · ২০২৬-০৯-১৪ → ২০২৬-১০-১৩*
+*দিন ০০১–০৩০*
 
 প্রথম সপ্তাহে কাগজপত্র আর **প্রথম আবেদন**, তারপর আবেদন, DSA আর STAR story একসাথে। প্রস্তুতি শেষ হওয়ার অপেক্ষা নেই — আবেদন শুরু আজ থেকে।
 
-২৪ মাসের plan-এর **মাস ০০** (প্রথম আবেদন ২০২৬-০৯-২০) আর **মাস ০১-এর প্রথম মাইলফলক** (৬টা STAR story ও ৯টা README, ২০২৬-১০-১৩)। DSA শুরু দিন ০০৮-এ — workbook টপিক ১–৫, দিনে ১টা।
+মাইলফলক: **প্রথম আবেদন দিন ০০৭-এ**, **৬টা STAR story আর ৯টা README দিন ০৩০-এর মধ্যে**। DSA শুরু দিন ০০৮-এ — টপিক ১–৫, দিনে ১টা, [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ।
 
 > **ব্লক শেষে:** প্রথম আবেদন গেছে, ৬টা STAR story আর ৯টা README লেখা, এ পর্যন্ত ৮টা আবেদন?
 
-### দিন ০০১ · ২০২৬-০৯-১৪ · শুরুর দিন
+### দিন ০০১ · শুরুর দিন
 
-- [ ] ১৫′ একজন মানুষ বাছাই (বন্ধু, সহকর্মী বা পরিবারের কেউ) — তাকে বলুন: *"২০২৬-০৯-২০-এর মধ্যে প্রথম আবেদন পাঠাব, ২১ তারিখে জিজ্ঞেস কোরো"* 🧠 (Stakes & Rewards · Community)
+- [ ] ১৫′ একজন মানুষ বাছাই (বন্ধু, সহকর্মী বা পরিবারের কেউ) — তাকে বলুন: *"এক সপ্তাহের মধ্যে প্রথম আবেদন পাঠাব, আট দিনের দিন জিজ্ঞেস কোরো"* 🧠 (Stakes & Rewards · Community)
 - [ ] ১৫′ Spreadsheet বানান — ৬ কলাম: কোম্পানি · তারিখ · কোন পথে · অবস্থা · পরের কাজ · নোট
 - [ ] ১৫′ `00-rules.md`-এর "কখন বসবেন ⏳" ভরুন — কোন সময়ে মাথা সবচেয়ে ভালো চলে, আর বসার সংকেত 🧠 (Productivity time · Habits revisited)
 - [ ] ১৫′ ইংরেজি শুরু — আজ অফিসে কী করেছেন, ১ মিনিট জোরে, তিনবার 🧠 (Active learning)
 
 > **দিন শেষে:** তারিখটা একজনকে বলা হয়েছে?
 
-### দিন ০০২ · ২০২৬-০৯-১৫ · Portfolio-তে নিজের নাম
+### দিন ০০২ · Portfolio-তে নিজের নাম
 
 - [ ] ৪৫′ ⚑ Portfolio থেকে **"[Your Name]"** সরান — নাম, লিংক ঠিক করে deploy; এক বসায়, শেষ সময় আগে ঠিক করে 🧠 (Have an endpoint · Parkinson's law)
 - [ ] ১৫′ ইংরেজি — portfolio-র প্রথম পাতায় কী কী আছে, জোরে ব্যাখ্যা
 
 > **দিন শেষে:** portfolio খুললে আপনার নাম দেখায়?
 
-### দিন ০০৩ · ২০২৬-০৯-১৬ · সিভির তিনটা bullet
+### দিন ০০৩ · সিভির তিনটা bullet
 
 - [ ] ৪৫′ বর্তমান চাকরির ৩টা bullet — *কী করেছেন + কীভাবে + ফলাফল*; সংখ্যা না থাকলে scope (কতজন ব্যবহারকারী, কত পাতা), সংখ্যা বানানো নয়
 - [ ] ১৫′ ইংরেজি — প্রতিটা bullet ধরে "Tell me more about this" — ৩০ সেকেন্ড করে বলুন; যেটা নিয়ে বলতে পারেন না, সেটা সিভিতে রাখবেন না 🧠 (Test yourself)
 
 > **দিন শেষে:** তিনটা bullet-ই ৩০ সেকেন্ড বলা যায়?
 
-### দিন ০০৪ · ২০২৬-০৯-১৭ · সিভি এক পাতায়
+### দিন ০০৪ · সিভি এক পাতায়
 
 - [ ] ৪৫′ ⚑ সিভি: এক পাতা, এক কলাম; বাবার নাম / ধর্ম / NID / "Career Objective" / "I hereby declare" মুছুন; Skills-এ **TS · React · Next.js আগে**, তারপর Ember; সারাংশে "nearly 4 years", অভিজ্ঞতা *Nov 2022 – Present*; PDF `Sojib_Frontend_Engineer.pdf`
 - [ ] ১৫′ ইংরেজি — সারাংশের দুই লাইন না দেখে বলুন, যতক্ষণ না আটকান
 
 > **দিন শেষে:** এক পাতার PDF তৈরি?
 
-### দিন ০০৫ · ২০২৬-০৯-১৮ · ৩০টা কোম্পানি
+### দিন ০০৫ · ৩০টা কোম্পানি
 
 - [ ] ৪৫′ ⚑ ৩০টা বাংলাদেশি কোম্পানির তালিকা spreadsheet-এ — **১০টা নাগালের একটু বাইরে, ১৫টা ঠিক মাপের, ৫টা নিরাপদ**; তিন বাজার মিশিয়ে: প্রোডাক্ট (Therap, Optimizely, Samsung R&D, Augmedix, Orbitax…), আউটসোর্সিং (Cefalo, Selise, Brain Station 23, Enosis, Vivasoft, Kaz, Welldev…), স্টার্টআপ/ফিনটেক (bKash, Nagad, Pathao, ShopUp, Chaldal, Sheba…) 🧠 (Everything is a game)
 - [ ] ১৫′ ইংরেজি — প্রথম ৩টা কোম্পানি কী বানায়, প্রতিটা ৩০ সেকেন্ডে
 
 > **দিন শেষে:** তালিকায় ৩০টা নাম, তিন ভাগে?
 
-### দিন ০০৬ · ২০২৬-০৯-১৯ · প্রথম STAR story
+### দিন ০০৬ · প্রথম STAR story
 
 - [ ] ৪০′ STAR #১ — **দায়িত্ব নেওয়া:** কেউ বলেনি, তবু নিজে থেকে কিছু ঠিক করেছেন; ইংরেজিতে বুলেট, Action ৬০%, "I" 🔁 🧠 (Feynman)
 - [ ] ১৫′ ইংরেজি — story #১ জোরে, ফোনে রেকর্ড; ৯০ সেকেন্ডে শেষ হলো? 🧠 (Feedback)
@@ -53,7 +53,7 @@
 
 > **দিন শেষে:** story #১ লেখা ও রেকর্ড করা?
 
-### দিন ০০৭ · ২০২৬-০৯-২০ · প্রথম আবেদন
+### দিন ০০৭ · প্রথম আবেদন
 
 - [ ] ৪০′ ⚑ **প্রথম আবেদন** — "ঠিক মাপের" ভাগ থেকে একটা; সিভি ১০′ ঐ পদের সাথে মেলানো; পথ বাছুন রেফারেল → বার্তা → careers → portal ক্রমে; spreadsheet-এ সারি 🧠 (Failures don't count)
 - [ ] ১০′ নিজেকে ছোট একটা পুরস্কার, আর যাকে বলেছিলেন তাকে জানান 🧠 (Stakes & Rewards)
@@ -62,47 +62,47 @@
 
 > **দিন শেষে:** প্রথম আবেদন গেছে?
 
-### দিন ০০৮ · ২০২৬-০৯-২১ · DSA শুরু
+### দিন ০০৮ · DSA শুরু
 
-- [ ] ৩০′ DSA ১/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২ — তালিকার কোম্পানির engineer বা hiring manager-কে, ৩ লাইনের ছাঁচে 🧠 (Community)
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১/৩০ হয়েছে, বার্তা দুটো গেছে?
 
-### দিন ০০৯ · ২০২৬-০৯-২২ · আবেদন
+### দিন ০০৯ · আবেদন
 
-- [ ] ৩০′ DSA ২/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ২/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ২টা; আগে পরিচিত কেউ, তারপর সিভি ১০′ মেলানো
 - [ ] ১৫′ ইংরেজি — আজকের পদের JD-র ৩টা মূল শব্দ দিয়ে নিজের কাজ ১ মিনিটে
 
 > **দিন শেষে:** এ পর্যন্ত ২টা আবেদন?
 
-### দিন ০১০ · ২০২৬-০৯-২৩ · STAR #২
+### দিন ০১০ · STAR #২
 
-- [ ] ৩০′ DSA ৩/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৩/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ STAR #২ — **কঠিন কারিগরি সিদ্ধান্ত:** অফিসের কোনো architecture বা library বাছাই; কী কী বিকল্প ছিল, কেন এটা 🔁 🧠 (Feynman)
 - [ ] ১৫′ ইংরেজি — story #২ রেকর্ড, ৯০ সেকেন্ড
 
 > **দিন শেষে:** story #২ রেকর্ড করা?
 
-### দিন ০১১ · ২০২৬-০৯-২৪ · আবেদন
+### দিন ০১১ · আবেদন
 
-- [ ] ৩০′ DSA ৪/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৪/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৩টা
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৩টা আবেদন?
 
-### দিন ০১২ · ২০২৬-০৯-২৫ · প্রথম medium
+### দিন ০১২ · প্রথম medium
 
-- [ ] ৩০′ DSA ৫/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৫/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** 3Sum-এর মূল আইডিয়া ৩ লাইনে লেখা?
 
-### দিন ০১৩ · ২০২৬-০৯-২৬ · STAR #৩
+### দিন ০১৩ · STAR #৩
 
 - [ ] ৪০′ STAR #৩ — **অস্পষ্ট পরিস্থিতি:** অসম্পূর্ণ requirement নিয়ে কাজ শুরু করতে হয়েছিল এমন কোনো ফিচার 🔁 🧠 (Feynman)
 - [ ] ১০′ তিনটা story পাশাপাশি — কোনটা কোন ধরনের প্রশ্নে খাটে, এক লাইনে ম্যাপ 🧠 (Chunk the subject)
@@ -110,55 +110,55 @@
 
 > **দিন শেষে:** তিনটা story লেখা আর ম্যাপ করা?
 
-### দিন ০১৪ · ২০২৬-০৯-২৭ · README #১–৩
+### দিন ০১৪ · README #১–৩
 
 - [ ] ১০′ সপ্তাহের হিসাব — এ পর্যন্ত আবেদন, DSA, story; পরের সপ্তাহের একটা দুর্বলতা
-- [ ] ৪৫′ README ইংরেজিতে এক প্যারা — pin করা তিনটা: `local_company_dsa_prep`, `system_design`, `srdtube`; প্রতিটায় কী সমস্যা, কী সমাধান
+- [ ] ৪৫′ README ইংরেজিতে এক প্যারা — pin করা তিনটা: `dsa_prep_local_company`, `system_design`, `srdtube`; প্রতিটায় কী সমস্যা, কী সমাধান
 - [ ] ১৫′ ইংরেজি — না দেখে একটা প্রজেক্ট ৬০ সেকেন্ডে
 
 > **দিন শেষে:** তিনটা README-তে ইংরেজি প্যারা আছে?
 
-### দিন ০১৫ · ২০২৬-০৯-২৮ · Sliding-র আগে
+### দিন ০১৫ · Sliding-র আগে
 
-- [ ] ৩০′ DSA ৬/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৬/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ৬/৩০, বার্তা দুটো?
 
-### দিন ০১৬ · ২০২৬-০৯-২৯ · আবেদন
+### দিন ০১৬ · আবেদন
 
-- [ ] ৩০′ DSA ৭/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৭/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৪টা
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৪টা আবেদন?
 
-### দিন ০১৭ · ২০২৬-০৯-৩০ · STAR #৪
+### দিন ০১৭ · STAR #৪
 
-- [ ] ৩০′ DSA ৮/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৮/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ STAR #৪ — **মতবিরোধ:** code review-তে দ্বিমত, বা deadline নিয়ে PM-এর সাথে টানাপোড়েন — ঝগড়া নয়, দ্বিমত সত্ত্বেও কাজ কীভাবে এগোল 🔁 🧠 (Feynman)
 - [ ] ১৫′ ইংরেজি — story #৪ রেকর্ড
 
 > **দিন শেষে:** story #৪ রেকর্ড করা?
 
-### দিন ০১৮ · ২০২৬-১০-০১ · আবেদন
+### দিন ০১৮ · আবেদন
 
-- [ ] ৩০′ DSA ৯/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৯/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৫টা
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৫টা আবেদন?
 
-### দিন ০১৯ · ২০২৬-১০-০২ · প্রথম follow-up
+### দিন ০১৯ · প্রথম follow-up
 
-- [ ] ৩০′ DSA ১০/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
-- [ ] ১৫′ LinkedIn বার্তা ×১ · আর ২০২৬-০৯-২০–২২-এর আবেদনে একবার follow-up
+- [ ] ৩০′ DSA ১০/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ১৫′ LinkedIn বার্তা ×১ · আর দিন ০০৭–০০৯-এর আবেদনে একবার follow-up
 - [ ] ১৫′ ইংরেজি — follow-up বার্তাটা লেখার আগে মুখে বলুন
 
 > **দিন শেষে:** follow-up গেছে?
 
-### দিন ০২০ · ২০২৬-১০-০৩ · STAR #৫
+### দিন ০২০ · STAR #৫
 
 - [ ] ৪০′ STAR #৫ — **অন্যকে সাহায্য:** কোনো junior বা নতুন সহকর্মীকে কিছু শিখিয়েছেন 🔁 🧠 (Feynman)
 - [ ] ১৫′ story #১–#৪: প্রতিটায় *"What would you do differently?"* — নোট বন্ধ করে উত্তর 🧠 (Test yourself)
@@ -166,7 +166,7 @@
 
 > **দিন শেষে:** পাঁচটা story, প্রতিটার "differently" উত্তর আছে?
 
-### দিন ০২১ · ২০২৬-১০-০৪ · README #৪–৬
+### দিন ০২১ · README #৪–৬
 
 - [ ] ১০′ সপ্তাহের হিসাব — spreadsheet খুলে দেখুন: কয়টা গেছে, কোনো সাড়া?
 - [ ] ৪৫′ README ইংরেজিতে এক প্যারা — বাকি deployed প্রজেক্ট থেকে যেকোনো ৩টা
@@ -174,54 +174,54 @@
 
 > **দিন শেষে:** ৬টা README হয়েছে?
 
-### দিন ০২২ · ২০২৬-১০-০৫ · Rotated array
+### দিন ০২২ · Rotated array
 
-- [ ] ৩০′ DSA ১১/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১১/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১১/৩০, বার্তা দুটো?
 
-### দিন ০২৩ · ২০২৬-১০-০৬ · আবেদন
+### দিন ০২৩ · আবেদন
 
-- [ ] ৩০′ DSA ১২/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১২/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৬টা
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৬টা আবেদন?
 
-### দিন ০২৪ · ২০২৬-১০-০৭ · STAR #৬ — ব্যর্থতা
+### দিন ০২৪ · STAR #৬ — ব্যর্থতা
 
-- [ ] ৩০′ DSA ১৩/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৩/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ ⚑ STAR #৬ — **ব্যর্থতা:** সত্যিকারের একটা ভুল — কী ভুল, দোষ কোথায় আপনার, **তারপর থেকে কী আলাদা করেন** 🔁 🧠 (Failures don't count)
 - [ ] ১৫′ ইংরেজি — story #৬ রেকর্ড
 
 > **দিন শেষে:** ছয়টা story লেখা?
 
-### দিন ০২৫ · ২০২৬-১০-০৮ · আবেদন
+### দিন ০২৫ · আবেদন
 
-- [ ] ৩০′ DSA ১৪/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৪/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৭টা
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৭টা আবেদন?
 
-### দিন ০২৬ · ২০২৬-১০-০৯ · follow-up
+### দিন ০২৬ · follow-up
 
-- [ ] ৩০′ DSA ১৫/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৫/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · ৭–১০ দিন আগের আবেদনে একবার follow-up
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১৫/৩০ — অর্ধেক?
 
-### দিন ০২৭ · ২০২৬-১০-১০ · ছয় story, এলোমেলো
+### দিন ০২৭ · ছয় story, এলোমেলো
 
 - [ ] ৫০′ ছয়টা story এলোমেলো প্রশ্নে — [`behavioural_interview` প্রশ্ন ব্যাংক](../../behavioural_interview/docs/04-question-bank/01-high-frequency-questions.md) থেকে ৬টা প্রশ্ন এলোমেলো তুলে, নোট বন্ধ, প্রতিটার উত্তর রেকর্ড 🧠 (Interleaving · Test yourself)
 - [ ] ১০′ কোন story সবচেয়ে দুর্বল — এক লাইনে; ওটার ঝালাইয়ে ঐ দুর্বলতা ধরবেন 🧠 (Deliberate practice)
 
 > **দিন শেষে:** ৬টা প্রশ্নেই কোনো একটা story খাপ খেয়েছে?
 
-### দিন ০২৮ · ২০২৬-১০-১১ · README #৭–৯
+### দিন ০২৮ · README #৭–৯
 
 - [ ] ১০′ সপ্তাহের হিসাব
 - [ ] ৪৫′ ⚑ README ইংরেজিতে এক প্যারা — বাকি ৩টা প্রজেক্ট; ৯টা শেষ
@@ -229,17 +229,17 @@
 
 > **দিন শেষে:** ৯টা README-তেই ইংরেজি প্যারা?
 
-### দিন ০২৯ · ২০২৬-১০-১২ · Two pointers, list-এ
+### দিন ০২৯ · Two pointers, list-এ
 
-- [ ] ৩০′ DSA ১৬/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৬/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১৬/৩০, বার্তা দুটো?
 
-### দিন ০৩০ · ২০২৬-১০-১৩ · ব্লক ১-এর হিসাব
+### দিন ০৩০ · ব্লক ১-এর হিসাব
 
-- [ ] ৩০′ DSA ১৭/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৭/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৮টা
 - [ ] ১০′ ব্লক ১-এর হিসাব — প্রথম আবেদন, ৬ story, ৯ README, ৮ আবেদন, ১৭ DSA: কোনটা বাকি, এক লাইনে কেন; "আমি পারিনি" নয়, "এখনো ___-এ আছি" 🧠 (It's all in the frame)
 - [ ] ১৫′ ইংরেজি — এই ৩০ দিনে কী বদলেছে, ১ মিনিট, রেকর্ড

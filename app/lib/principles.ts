@@ -210,6 +210,22 @@ const PRINCIPLES: Record<string, Principle> = {
     topic: "Test yourself",
     line: "বই বন্ধ করে মনে করার চেষ্টাই শেখা। যেখানে আটকান, সেটাই দেখায় ফাঁক কোথায়।",
   },
+  /* --- রিমোট ও গ্লোবাল plan-এর জন্য যোগ ------------------------------- */
+  "learning vs winning": {
+    doc: "principle",
+    topic: "Learning vs Winning",
+    line: "জেতার লক্ষ্যে মানুষ নিরাপদ আবেদন বাছে। শেখার লক্ষ্যে সীমার একটু বাইরেরটা — না হলেও interview-এর নোট থেকে যায়।",
+  },
+  "skill stacking": {
+    doc: "principle",
+    topic: "Skill stacking",
+    line: "frontend একা নয় — frontend + ইংরেজিতে লেখা + বিরল Ember একসাথে যে জায়গা বানায়, সেখানে প্রতিযোগী কম।",
+  },
+  einstellung: {
+    doc: "techniques",
+    topic: "Einstellung",
+    line: "প্রথম চেনা উত্তরটাই ভালোটা আড়াল করে — ডিজাইন বা কোড শেষে এক মিনিট: আরেকভাবে হয়?",
+  },
 };
 
 export function findPrinciple(name: string): Principle | undefined {

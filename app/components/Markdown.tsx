@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { slugify } from "../lib/slug";
@@ -41,12 +42,11 @@ export default function Markdown({ children, inline = false, className = "" }: P
         components={{
           a: ({ href, children: linkChildren }) => {
             const target = toSiteHref(href ?? "");
+            /* সাইটের ভেতরের route — `Link` basePath বসায়, সাধারণ `<a>` বসায় না */
+            if (target.startsWith("/")) return <Link href={target}>{linkChildren}</Link>;
             const external = /^https?:/i.test(target);
             return (
-              <a
-                href={target}
-                {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
-              >
+              <a href={target} {...(external ? { target: "_blank", rel: "noreferrer" } : {})}>
                 {linkChildren}
               </a>
             );

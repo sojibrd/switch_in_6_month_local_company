@@ -51,11 +51,10 @@ const bengali = Noto_Sans_Bengali({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.title} — ১৮০ দিন`,
+    default: SITE.title,
     template: `%s — ${SITE.short}`,
   },
-  description:
-    "২০২৬-০৯-১৪ থেকে ২০২৭-০৩-১২: বাংলাদেশি কোম্পানিতে ২০টা আবেদন আর ৫টা interview process — প্রতিদিনের কাজ, ঝালাই আর learning to learn-এর নীতিতে।",
+  description: SITE.description,
 };
 
 export default function RootLayout({

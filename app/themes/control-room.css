@@ -84,7 +84,7 @@
   /* How wide prose is allowed to run before the eye loses the line. */
   --t-measure: 70ch;
 
-  /* --- Check: the task-done toggle (same switch as local_company_dsa_prep) ----------- */
+  /* --- Check: the task-done toggle (same switch as the DSA sites) ----------- */
   /* An unlit well that fills green and lights once the task is done. Green
      rather than amber: "done" is a settled fact, amber is whatever is
      merely selected right now. */

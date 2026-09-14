@@ -29,11 +29,12 @@ type SidebarProps = {
   todayCode?: string;
   /** আজকের ব্লক — "এখন" chip */
   todaySlug?: string;
-  /** যে ব্লকের দিনগুলো খোলা — একবারে একটাই, নইলে ১৮০ সারি */
+  /** যে ব্লকের দিনগুলো খোলা — একবারে একটাই */
   openSlug?: string;
   percent: number;
   done: number;
   total: number;
+  dayCount: number;
   /** শুধু drawer-এ — বেরোনোর পথ */
   onClose?: () => void;
   /** শুধু স্থায়ী rail-এ — ভাঁজ করা যায় */
@@ -41,10 +42,10 @@ type SidebarProps = {
 };
 
 /**
- * ব্লক → দিন সূচি, পাতার লিংক আর ১৮০ দিনের gauge।
+ * ব্লক → দিন সূচি, পাতার লিংক আর plan-এর gauge।
  *
  * একই কম্পোনেন্ট rail আর drawer দুই জায়গায় — পার্থক্য শুধু বেরোনোর পথে।
- * ছয়টা ব্লক সবসময় দেখা যায়; দিনগুলো শুধু খোলা ব্লকের।
+ * সব ব্লক সবসময় দেখা যায়; দিনগুলো শুধু খোলা ব্লকের। 🧠 Create a roadmap
  */
 export default function Sidebar({
   blocks,
@@ -56,6 +57,7 @@ export default function Sidebar({
   percent,
   done,
   total,
+  dayCount,
   onClose,
   onCollapse,
 }: SidebarProps) {
@@ -112,12 +114,12 @@ export default function Sidebar({
 
         <div className="flex flex-col gap-2">
           <div className="flex items-baseline justify-between gap-2">
-            <span className="t-label">১৮০ দিনের কাজ</span>
+            <span className="t-label">{toBnDigits(dayCount)} দিনের কাজ</span>
             <span className="t-mono t-accent text-xs" suppressHydrationWarning>
               {toBnDigits(done)}/{toBnDigits(total)} ({toBnDigits(percent)}%)
             </span>
           </div>
-          <ProgressReadout percent={percent} label="১৮০ দিনের অগ্রগতি" />
+          <ProgressReadout percent={percent} label={`${toBnDigits(dayCount)} দিনের অগ্রগতি`} />
         </div>
       </div>
 

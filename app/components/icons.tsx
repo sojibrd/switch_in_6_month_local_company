@@ -1,5 +1,5 @@
 /**
- * Chassis-এর আইকন, inline আঁকা — local_company_dsa_prep-এর মতো।
+ * Chassis-এর আইকন, inline আঁকা।
  *
  * কয়েকটা glyph-এর জন্য পুরো আইকন লাইব্রেরি টানার দরকার নেই। সবই
  * `currentColor` নেয়, তাই রঙ থিমেরই থাকে।

@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import type { Day } from "../lib/plan";
-import { toBnDigits } from "../lib/dates";
+import { dayDate, toBnDigits } from "../lib/dates";
 import CheckQuestion from "./CheckQuestion";
 import ProgressReadout from "./ProgressReadout";
 import TaskItem from "./TaskItem";
 import { useMounted, useProgress } from "../hooks/useProgress";
 
 /**
- * একটা দিনের panel — local_company_dsa_prep-এর pattern panel-এর গড়নে: breadcrumb, শিরোনাম,
- * অগ্রগতি, কাজ, দিন-শেষের যাচাই। আজ ও দিনের পাতা দুটোই এটা দেখায়।
+ * একটা দিনের panel: breadcrumb, শিরোনাম, অগ্রগতি, কাজ, দিন-শেষের যাচাই। আজ ও
+ * দিনের পাতা দুটোই এটা দেখায়। তারিখ দেখায় শুধু শুরুর তারিখ বসানো থাকলে।
  */
 export default function DayBody({
   day,
@@ -24,12 +24,13 @@ export default function DayBody({
   totalDays: number;
 }) {
   const mounted = useMounted();
-  const { doneCount } = useProgress();
+  const { start, doneCount } = useProgress();
 
   const total = day.tasks.length;
   const done = mounted ? doneCount(day.tasks.map((task) => task.id)) : 0;
   const percent = total > 0 ? Math.round((done / total) * 100) : 0;
   const minutes = day.tasks.reduce((sum, task) => sum + (task.minutes ?? 0), 0);
+  const date = mounted && start ? dayDate(start, day.num) : null;
 
   return (
     <section className="surface-panel flex flex-col gap-6 p-4 sm:p-6 md:p-8">
@@ -42,8 +43,12 @@ export default function DayBody({
           <span>
             দিন {day.label}/{toBnDigits(totalDays)}
           </span>
-          <span>•</span>
-          <span>{toBnDigits(day.date)}</span>
+          {date && (
+            <>
+              <span>•</span>
+              <span>{toBnDigits(date)}</span>
+            </>
+          )}
         </div>
         <h2 className="t-title text-xl sm:text-2xl md:text-3xl">{day.title}</h2>
       </div>

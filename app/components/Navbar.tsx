@@ -48,7 +48,7 @@ export default function Navbar({
           aria-valuenow={percent}
           aria-valuemin={0}
           aria-valuemax={100}
-          aria-label="১৮০ দিনের অগ্রগতি"
+          aria-label="plan-এর অগ্রগতি"
           className="gauge h-2 w-16 sm:w-20"
         >
           <div className="gauge-fill" style={{ width: `${percent}%` }} />

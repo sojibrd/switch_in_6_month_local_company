@@ -3,6 +3,9 @@
  *
  * সব তারিখ ব্যবহারকারীর **স্থানীয়** "YYYY-MM-DD"। static export-এ build-এর দিন
  * আর পড়ার দিন আলাদা, তাই "আজ" সবসময় client-এ mount-এর পরে হিসাব হয়।
+ *
+ * plan-এর ফাইলে শুধু দিনের নম্বর — তারিখ = ব্যবহারকারীর বসানো শুরুর তারিখ +
+ * (দিন − ১)। শুরু যেদিনই হোক, plan একই থাকে।
  */
 
 export function todayISO(date = new Date()): string {
@@ -26,21 +29,31 @@ export function daysBetween(from: string, to: string): number {
   return Math.round((toUtc(to) - toUtc(from)) / 86_400_000);
 }
 
+export function isISODate(value: string): boolean {
+  return /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
+
 const BN_DIGITS = "০১২৩৪৫৬৭৮৯";
 
 export function toBnDigits(value: string | number): string {
   return String(value).replace(/[0-9]/g, (digit) => BN_DIGITS[Number(digit)]);
 }
 
+/** দিন `num` (১ থেকে) কোন তারিখে পড়ে */
+export function dayDate(start: string, num: number): string {
+  return addDays(start, num - 1);
+}
+
 /**
  * আজকের দিন — ক্যালেন্ডার ধরে, plan পেছায় না। শুরুর আগে প্রথম দিন, শেষের পরে
  * শেষ দিন — কখনো ফাঁকা পাতা নয়।
  */
-export function currentDayIndex(days: { date: string }[], today = todayISO()): number {
+export function currentDayIndex(days: { num: number }[], start: string, today = todayISO()): number {
   if (days.length === 0) return -1;
+  const offset = daysBetween(start, today) + 1;
   let index = 0;
   days.forEach((day, i) => {
-    if (day.date <= today) index = i;
+    if (day.num <= offset) index = i;
   });
   return index;
 }

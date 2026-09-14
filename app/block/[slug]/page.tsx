@@ -51,7 +51,7 @@ export default async function BlockPage({ params }: { params: Promise<Params> })
           storageKey={`b${block.num}`}
           label="ব্লক শেষে — নিজেকে যাচাই"
           question={block.check}
-          recall="উত্তরের আগে দিনের তালিকা না দেখে মনে করুন এই ৩০ দিনে কী কী হয়েছে।"
+          recall="উত্তরের আগে দিনের তালিকা না দেখে মনে করুন এই ব্লকে কী কী হয়েছে।"
         />
       )}
 

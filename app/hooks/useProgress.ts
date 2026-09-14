@@ -2,24 +2,27 @@
 
 import { useCallback, useSyncExternalStore } from "react";
 import { useLocalStorage } from "./useLocalStorage";
-import { REVIEW_DAYS, type ReviewState } from "../lib/dates";
+import { REVIEW_DAYS, isISODate, type ReviewState } from "../lib/dates";
+import { SITE } from "../lib/site";
 
 /**
  * Progress-এর একমাত্র মালিক। কোনো কম্পোনেন্ট সরাসরি `localStorage` ছোঁবে না —
  * সব পড়া-লেখা এখান দিয়ে, যাতে key-স্কিমা এক জায়গায় থাকে এবং static export-এ
  * hydration mismatch না ঘটে।
  *
- * Key স্কিমা (`v1` — আকার বদলালে migrate করার জন্য):
- *   slc6:v1:task    → { [taskId]: "YYYY-MM-DD" }   কাজ শেষের স্থানীয় তারিখ
- *   slc6:v1:check   → { ["d007" | "b1"]: "yes" | "no" }   দিন-শেষ / ব্লক-শেষ
- *   slc6:v1:review  → { [taskId]: ReviewState }
+ * Key স্কিমা (`<prefix>` = `SITE.storagePrefix`; `v1` — আকার বদলালে migrate):
+ *   <prefix>:v1:start   → "YYYY-MM-DD"   plan-এর দিন ০০১ কোন তারিখে
+ *   <prefix>:v1:task    → { [taskId]: "YYYY-MM-DD" }   কাজ শেষের স্থানীয় তারিখ
+ *   <prefix>:v1:check   → { ["d007" | "b1"]: "yes" | "no" }   দিন-শেষ / ব্লক-শেষ
+ *   <prefix>:v1:review  → { [taskId]: ReviewState }
  *
  * ঝালাইয়ের অবস্থা শুধু "মনে ছিল" / "আটকে গেছি" চাপলে লেখা হয়। তার আগে পর্যন্ত
  * অবস্থা = { base: কাজ শেষের তারিখ, step: 0 } — তাই টিক দিলেই ঝালাই চালু।
  */
-const TASK_KEY = "slc6:v1:task";
-const CHECK_KEY = "slc6:v1:check";
-const REVIEW_KEY = "slc6:v1:review";
+const START_KEY = `${SITE.storagePrefix}:v1:start`;
+const TASK_KEY = `${SITE.storagePrefix}:v1:task`;
+const CHECK_KEY = `${SITE.storagePrefix}:v1:check`;
+const REVIEW_KEY = `${SITE.storagePrefix}:v1:review`;
 
 export type Answer = "yes" | "no";
 
@@ -39,9 +42,15 @@ export function useMounted(): boolean {
 }
 
 export function useProgress() {
+  const [startRaw, setStartRaw] = useLocalStorage<string>(START_KEY, "");
   const [tasks, setTasks] = useLocalStorage<DoneMap>(TASK_KEY, {});
   const [answers, setAnswers] = useLocalStorage<Answers>(CHECK_KEY, {});
   const [reviews, setReviews] = useLocalStorage<Reviews>(REVIEW_KEY, {});
+
+  /** বসানো না থাকলে বা নষ্ট হলে `SITE.defaultStart`; সেটাও না থাকলে `null` */
+  const start = isISODate(startRaw) ? startRaw : SITE.defaultStart;
+
+  const setStart = useCallback((iso: string) => setStartRaw(isISODate(iso) ? iso : ""), [setStartRaw]);
 
   const isTaskDone = useCallback((id: string) => Boolean(tasks[id]), [tasks]);
 
@@ -115,6 +124,8 @@ export function useProgress() {
   );
 
   return {
+    start,
+    setStart,
     isTaskDone,
     taskDoneDate,
     toggleTask,

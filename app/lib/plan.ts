@@ -6,8 +6,8 @@ import path from "node:path";
  * শুধু `import type` নিতে পারে; মান import করলে `fs` bundle-এ ঢুকে build ভাঙবে।
  *
  * সত্যের উৎস `docs/`-এর `^\d\d-.*\.md` ফাইলগুলো: `00-rules.md` নিয়ম, বাকিগুলো
- * ৩০ দিনের ব্লক। ব্লক, দিন, তারিখ, কাজ — কিছুই কোডে হার্ডকোড নেই; ফাইল বদলালে
- * পরের build-এ সাইট বদলায়।
+ * ব্লক। ব্লক, দিন, কাজ — কিছুই কোডে হার্ডকোড নেই। ফাইলে **তারিখ নেই**, শুধু দিনের
+ * নম্বর; তারিখ আসে ব্যবহারকারীর বসানো শুরুর দিন থেকে (`lib/dates.ts`)।
  */
 const DOCS_DIR = path.join(process.cwd(), "docs");
 const RULES_FILE = "00-rules.md";
@@ -32,13 +32,12 @@ export type Task = {
 };
 
 export type Day = {
+  /** ১ থেকে — শুরুর তারিখ + (num − ১) = এই দিনের তারিখ */
   num: number;
   /** ASCII তিন অঙ্ক — route ও key, e.g. "007" */
   code: string;
   /** ফাইলে যেমন লেখা, e.g. "০০৭" */
   label: string;
-  /** ASCII "YYYY-MM-DD" */
-  date: string;
   title: string;
   tasks: Task[];
   /** `> **দিন শেষে:**`-এর প্রশ্ন */
@@ -87,7 +86,7 @@ function hash(value: string): string {
 
 const H1_RE = /^#\s+(.+)$/;
 const ITALIC_RE = /^\*[^*].*\*$/;
-const DAY_RE = /^###\s+দিন\s+([০-৯0-9]+)\s+·\s+([০-৯0-9]{4}-[০-৯0-9]{2}-[০-৯0-9]{2})\s+·\s+(.+)$/;
+const DAY_RE = /^###\s+দিন\s+([০-৯0-9]+)\s+·\s+(.+)$/;
 const TASK_RE = /^-\s+\[[ xX]\]\s+(.+)$/;
 const DAY_CHECK_RE = /^>\s*\*\*দিন শেষে:\*\*\s*(.+)$/;
 const BLOCK_CHECK_RE = /^>\s*\*\*ব্লক শেষে:\*\*\s*(.+)$/;
@@ -147,8 +146,7 @@ function parseBlock(file: string, num: number, slug: string): Block {
         num: Number(code),
         code,
         label: dayMatch[1],
-        date: toAsciiDigits(dayMatch[2]),
-        title: dayMatch[3].trim(),
+        title: dayMatch[2].trim(),
         tasks: [],
         check: "",
       };
@@ -209,6 +207,13 @@ export function getBlocks(): Block[] {
       const [, num, slug] = DOC_RE.exec(file)!;
       return parseBlock(file, Number(num), slug);
     });
+
+  /* দিনের নম্বর পরপর না হলে তারিখের হিসাব ভুল হবে — build-এই থামুক */
+  blocksCache
+    .flatMap((block) => block.days.map((day) => day.num))
+    .forEach((num, i) => {
+      if (num !== i + 1) throw new Error(`docs: দিনের নম্বর পরপর নয় — ${i + 1} হওয়ার কথা, পাওয়া গেছে ${num}`);
+    });
   return blocksCache;
 }
 
@@ -237,7 +242,7 @@ export function getRules(): Rules {
   return { title, subtitle, goal, body: body.join("\n").trim() };
 }
 
-/** ১৮০ দিন এক সারিতে, প্রতিটার সাথে তার ব্লক */
+/** সব দিন এক সারিতে, প্রতিটার সাথে তার ব্লক */
 export type TimelineDay = Day & { blockSlug: string; blockName: string; dip: boolean };
 
 export function getDays(): TimelineDay[] {
@@ -262,7 +267,7 @@ export function getRepeatTasks(): RepeatTask[] {
 }
 
 /** Rail-এর সূচি — কাজের লেখা ছাড়া */
-export type IndexDay = { code: string; label: string; date: string; title: string; taskIds: string[] };
+export type IndexDay = { num: number; code: string; label: string; title: string; taskIds: string[] };
 
 export type IndexBlock = {
   num: number;
@@ -283,9 +288,9 @@ export function getPlanIndex(): IndexBlock[] {
     dip: block.dip,
     check: block.check,
     days: block.days.map((day) => ({
+      num: day.num,
       code: day.code,
       label: day.label,
-      date: day.date,
       title: day.title,
       taskIds: day.tasks.map((task) => task.id),
     })),
