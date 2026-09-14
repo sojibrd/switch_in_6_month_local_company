@@ -8,7 +8,7 @@ import PrincipleChips from "./PrincipleChips";
 import { useMounted, useProgress } from "../hooks/useProgress";
 
 /**
- * একটা কাজ — dsa_prep-এর problem card-এর গড়নে: নেটিভ checkbox (`.check`), টিক
+ * একটা কাজ — local_company_dsa_prep-এর problem card-এর গড়নে: নেটিভ checkbox (`.check`), টিক
  * দিলে লেখা কাটা, কবে শেষ হলো তার তারিখ, আর মিনিট / ⚑ / 🔁 / 🧠 chip।
  *
  * `from` দিলে কাজটা অন্য দিনের — হোমের জমে থাকা মাইলফলকে দিনের লিংক দেখায়।

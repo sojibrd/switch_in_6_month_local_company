@@ -10,7 +10,7 @@ import Sidebar from "./Sidebar";
 import { PanelLeftOpen } from "./icons";
 
 /**
- * সব পাতার chassis — dsa_prep-এর মতো: বাঁয়ে rail (৬ ব্লক, খোলা ব্লকের দিন),
+ * সব পাতার chassis — local_company_dsa_prep-এর মতো: বাঁয়ে rail (৬ ব্লক, খোলা ব্লকের দিন),
  * মোবাইলে drawer, আর ডানের pane একা স্ক্রল হয়।
  *
  * Layout-এ থাকে, পাতায় নয় — তাই পাতা বদলালেও rail একটাই থাকে, ভাঁজ করা

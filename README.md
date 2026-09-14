@@ -24,7 +24,7 @@
 - **Static export → GitHub Pages।** Backend নেই।
 - **Progress শুধু `localStorage`-এ,** একমাত্র `app/hooks/useProgress.ts` দিয়ে।
 - **`app/lib/plan.ts` server-only।**
-- **Theme contract অলঙ্ঘনীয়, সাইট dark-only।** Tailwind শুধু লেআউটে; চেহারা role class আর `--t-*` টোকেনে। গড়ন `dsa_prep` / `switch_company_in_24_month`-এর মতো।
+- **Theme contract অলঙ্ঘনীয়, সাইট dark-only।** Tailwind শুধু লেআউটে; চেহারা role class আর `--t-*` টোকেনে। গড়ন `switch_company_in_24_month`-এর মতো; DSA-র প্রবলেম, নোট আর ঝালাই `local_company_dsa_prep`-এ।
 - **স্ট্যাক:** Next.js 16, React 19, TypeScript, Tailwind v4, react-markdown।
 
 ## ডক ইনডেক্স
@@ -33,7 +33,7 @@
 
 | ফাইল | Gist |
 |---|---|
-| [docs/00-rules.md](docs/00-rules.md) | ১৮০ দিনের সব নিয়ম: লক্ষ্য (২০ আবেদন, ৫ process — offer নয়), সত্যের উৎসের ক্রম, চিহ্নের মানে (`৩০′` 🧠 🔁 ⚑ ⏳), "আজ" মানে ক্যালেন্ডারের আজ, সপ্তাহের ৭ ঘণ্টার ছন্দ, DSA ও STAR-এর বসার ধাপ, ঝালাই, আবেদন আর interview-এর নিয়ম, Dip-এর নিয়ম, যা করবেন না, টাকা, দিন ১৮০-র পরে |
+| [docs/00-rules.md](docs/00-rules.md) | ১৮০ দিনের সব নিয়ম: লক্ষ্য (২০ আবেদন, ৫ process — offer নয়), সত্যের উৎসের ক্রম, চিহ্নের মানে (`৩০′` 🧠 🔁 ⚑ ⏳), "আজ" মানে ক্যালেন্ডারের আজ, সপ্তাহের ৭ ঘণ্টার ছন্দ, STAR-এর বসার ধাপ (DSA-র বসা `local_company_dsa_prep`-এ), ঝালাই, আবেদন আর interview-এর নিয়ম, Dip-এর নিয়ম, যা করবেন না, টাকা, দিন ১৮০-র পরে |
 
 ### ৩০ দিনের ৬টা ব্লক
 

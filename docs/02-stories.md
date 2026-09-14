@@ -10,25 +10,25 @@
 
 ### দিন ০৩১ · ২০২৬-১০-১৪ · GitHub প্রোফাইল
 
-- [ ] ৩০′ DSA ১৮/৩০ — **Implement Queue using Stacks** (LC 232 · ৪.৩ Design) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৮/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ GitHub প্রোফাইল পরিষ্কার — pin শুধু `dsa_prep`, `system_design`, `srdtube`; প্রোফাইল README-তে ৩ লাইন: কে, কী বানান, কোথায় 🧠 (Pareto)
-- [ ] ১৫′ ইংরেজি — দুই stack দিয়ে queue কেন amortized O(1), জোরে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** GitHub-এ ঠিক তিনটা pin?
 
 ### দিন ০৩২ · ২০২৬-১০-১৫ · আবেদন
 
-- [ ] ৩০′ DSA ১৯/৩০ — **Maximum Depth of Binary Tree** (LC 104 · ৫.১ Traversal) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৯/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৯টা
-- [ ] ১৫′ ইংরেজি — recursion-এ base case কী, ৩ বাক্যে 🧠 (Feynman)
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৯টা আবেদন?
 
 ### দিন ০৩৩ · ২০২৬-১০-১৬ · ২০টা, ভিত্তি শেষ
 
-- [ ] ৩০′ DSA ২০/৩০ — **Invert Binary Tree** (LC 226 · ৫.৪) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ২০/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · ৭–১০ দিন আগের আবেদনে একবার follow-up
-- [ ] ১৫′ ইংরেজি — পাঁচ টপিকের প্রতিটা এক বাক্যে: কখন এই pattern লাগে 🧠 (Chunk the subject)
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** টপিক ১–৫-এর ভিত্তি — ২০টা শেষ?
 
@@ -49,31 +49,31 @@
 
 ### দিন ০৩৬ · ২০২৬-১০-১৯ · মিশিয়ে শুরু
 
-- [ ] ৩০′ DSA ২১/৩০ · মিশ্র — **Group Anagrams** (LC 49) — টপিক না দেখে আগে pattern-এর নাম বলুন 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২১/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — কোন pattern ভেবেছিলেন, আর কোন ক্লু দেখে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** pattern আগে বলে তারপর মিলিয়েছেন?
 
 ### দিন ০৩৭ · ২০২৬-১০-২০ · দশম আবেদন
 
-- [ ] ৩০′ DSA ২২/৩০ · মিশ্র — **Daily Temperatures** (LC 739) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২২/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য **১০টা**; এখন থেকে সিভিতে দরকারি বদল চলে
-- [ ] ১৫′ ইংরেজি — "next greater" ধরনের প্রশ্নে stack কেন, জোরে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ১০টা আবেদন?
 
 ### দিন ০৩৮ · ২০২৬-১০-২১ · mock-এর সঙ্গী খোঁজা
 
-- [ ] ৩০′ DSA ২৩/৩০ · মিশ্র — **Binary Tree Level Order Traversal** (LC 102) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৩/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ mock interview-এর সঙ্গী — ৩ জনের নাম লিখুন (সহকর্মী, প্রাক্তন সহকর্মী, community-র কেউ), তিনজনকেই বার্তা: ডিসেম্বর থেকে মাসে একবার ৪৫′ 🧠 (Community)
-- [ ] ১৫′ ইংরেজি — BFS আর DFS কখন কোনটা, ১ মিনিট
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** তিনজনকে বার্তা গেছে?
 
 ### দিন ০৩৯ · ২০২৬-১০-২২ · আবেদন
 
-- [ ] ৩০′ DSA ২৪/৩০ · মিশ্র — **Swap Nodes in Pairs** (LC 24) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৪/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১১টা
 - [ ] ১৫′ ইংরেজি — আজকের কোম্পানির জন্য "Tell me about yourself"-এর শেষ বাক্য বদলে বলুন
 
@@ -81,9 +81,9 @@
 
 ### দিন ০৪০ · ২০২৬-১০-২৩ · follow-up
 
-- [ ] ৩০′ DSA ২৫/৩০ · মিশ্র — **Insert Interval** (LC 57) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৫/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · ৭–১০ দিন আগের আবেদনে একবার follow-up
-- [ ] ১৫′ ইংরেজি — interval merge-এ sort কেন আগে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** follow-up গেছে?
 
@@ -104,23 +104,23 @@
 
 ### দিন ০৪৩ · ২০২৬-১০-২৬ · শেষ সপ্তাহ
 
-- [ ] ৩০′ DSA ২৬/৩০ · মিশ্র — **Next Greater Element I** (LC 496) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৬/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — Daily Temperatures আর আজকেরটা একই pattern — কোথায় মিল
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ২৬/৩০?
 
 ### দিন ০৪৪ · ২০২৬-১০-২৭ · আবেদন
 
-- [ ] ৩০′ DSA ২৭/৩০ · মিশ্র — **Diameter of Binary Tree** (LC 543) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৭/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১২টা
-- [ ] ১৫′ ইংরেজি — height ফেরত দিয়ে diameter কীভাবে ধরা হয়
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ১২টা আবেদন?
 
 ### দিন ০৪৫ · ২০২৬-১০-২৮ · রেফারেলের জাল
 
-- [ ] ৩০′ DSA ২৮/৩০ · মিশ্র — **Find Peak Element** (LC 162) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৮/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ তালিকার যে কোম্পানিতে এখনো আবেদন হয়নি — প্রতিটায় LinkedIn-এ ২য় ডিগ্রির সংযোগ খুঁজে নোট কলামে; কাকে দিয়ে পরিচয় চাওয়া যায় 🧠 (Community)
 - [ ] ১৫′ ইংরেজি — "Tell me about yourself" ঠান্ডা শুরুতে, নোট ছাড়া
 
@@ -128,17 +128,17 @@
 
 ### দিন ০৪৬ · ২০২৬-১০-২৯ · আবেদন
 
-- [ ] ৩০′ DSA ২৯/৩০ · মিশ্র — **Kth Smallest Element in a BST** (LC 230) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ DSA ২৯/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৩টা
-- [ ] ১৫′ ইংরেজি — BST-র inorder কেন sorted
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ১৩টা আবেদন?
 
 ### দিন ০৪৭ · ২০২৬-১০-৩০ · ৩০টা — থামা
 
-- [ ] ৩০′ ⚑ DSA ৩০/৩০ · মিশ্র — **Rotate Image** (LC 48) — আগে pattern 🔁 🧠 (Interleaving)
+- [ ] ৩০′ ⚑ DSA ৩০/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · follow-up
-- [ ] ১৫′ ইংরেজি — ৩০টার মধ্যে যে ৩টায় সবচেয়ে বেশি আটকেছেন, কেন; আর লিখে রাখুন: **এখন থেকে নতুন প্রবলেম নয়, শুধু ঝালাই** — ঘণ্টা বা সংখ্যা দক্ষতা বানায় না 🧠 (Pareto · 10,000 hours rule)
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** ৩০টা শেষ, আর থামার সিদ্ধান্ত লেখা?
 
@@ -161,7 +161,7 @@
 
 ### দিন ০৫০ · ২০২৬-১১-০২ · Dip শুরু
 
-- [ ] ৩০′ আজকের ঝালাই — ঝালাই-তালিকা যা বলে; ফাঁকা থাকলে ৩০টার একটা এলোমেলো প্রবলেম ফাঁকা পাতায় 🧠 (Spaced repetition)
+- [ ] ৩০′ আজকের ঝালাই — DSA-র ঝালাই [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/review/)-এ, বাকিটা এই সাইটের ঝালাই-তালিকা; দুটোই ফাঁকা থাকলে ৩০টার একটা এলোমেলো প্রবলেম ফাঁকা পাতায় 🧠 (Spaced repetition)
 - [ ] ১০′ `00-rules.md`-এর Dip-এর নিয়ম নিজের ভাষায় ৩ লাইনে লিখুন — কাগজে, ল্যাপটপের পাশে রাখুন 🧠 (The dip)
 - [ ] ১৫′ LinkedIn বার্তা ×২
 - [ ] ১৫′ ইংরেজি — "সাড়া না এলে কী করব" — নিজেকে ১ মিনিট বলুন

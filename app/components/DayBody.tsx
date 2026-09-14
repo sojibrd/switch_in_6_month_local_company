@@ -9,7 +9,7 @@ import TaskItem from "./TaskItem";
 import { useMounted, useProgress } from "../hooks/useProgress";
 
 /**
- * একটা দিনের panel — dsa_prep-এর pattern panel-এর গড়নে: breadcrumb, শিরোনাম,
+ * একটা দিনের panel — local_company_dsa_prep-এর pattern panel-এর গড়নে: breadcrumb, শিরোনাম,
  * অগ্রগতি, কাজ, দিন-শেষের যাচাই। আজ ও দিনের পাতা দুটোই এটা দেখায়।
  */
 export default function DayBody({

@@ -64,15 +64,15 @@
 
 ### দিন ০০৮ · ২০২৬-০৯-২১ · DSA শুরু
 
-- [ ] ৩০′ DSA ১/৩০ — **Two Sum** (LC 1 · ১.৪ Hashing) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২ — তালিকার কোম্পানির engineer বা hiring manager-কে, ৩ লাইনের ছাঁচে 🧠 (Community)
-- [ ] ১৫′ ইংরেজি — Two Sum-এর approach: *"A simple approach is O(n²); a hash map gets it to O(n)."*
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১/৩০ হয়েছে, বার্তা দুটো গেছে?
 
 ### দিন ০০৯ · ২০২৬-০৯-২২ · আবেদন
 
-- [ ] ৩০′ DSA ২/৩০ — **Valid Anagram** (LC 242 · ১.৪ Hashing) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ২/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ২টা; আগে পরিচিত কেউ, তারপর সিভি ১০′ মেলানো
 - [ ] ১৫′ ইংরেজি — আজকের পদের JD-র ৩টা মূল শব্দ দিয়ে নিজের কাজ ১ মিনিটে
 
@@ -80,7 +80,7 @@
 
 ### দিন ০১০ · ২০২৬-০৯-২৩ · STAR #২
 
-- [ ] ৩০′ DSA ৩/৩০ — **Valid Palindrome** (LC 125 · ১.১ Two Pointers) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৩/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ STAR #২ — **কঠিন কারিগরি সিদ্ধান্ত:** অফিসের কোনো architecture বা library বাছাই; কী কী বিকল্প ছিল, কেন এটা 🔁 🧠 (Feynman)
 - [ ] ১৫′ ইংরেজি — story #২ রেকর্ড, ৯০ সেকেন্ড
 
@@ -88,17 +88,17 @@
 
 ### দিন ০১১ · ২০২৬-০৯-২৪ · আবেদন
 
-- [ ] ৩০′ DSA ৪/৩০ — **Two Sum II (Sorted Array)** (LC 167 · ১.১ Two Pointers) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৪/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৩টা
-- [ ] ১৫′ ইংরেজি — Two Sum আর Two Sum II-এর পার্থক্য: কেন sorted হলে hash map লাগে না
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৩টা আবেদন?
 
 ### দিন ০১২ · ২০২৬-০৯-২৫ · প্রথম medium
 
-- [ ] ৩০′ DSA ৫/৩০ — **3Sum** (LC 15 · ১.১ Two Pointers) — medium; ১০ মিনিট আটকালে উঠে হাঁটুন 🔁 🧠 (Focus vs Diffuse · Deliberate practice)
+- [ ] ৩০′ DSA ৫/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১
-- [ ] ১৫′ ইংরেজি — 3Sum-এ কোথায় আটকেছিলেন, জোরে: *"I got stuck on duplicates because…"*
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** 3Sum-এর মূল আইডিয়া ৩ লাইনে লেখা?
 
@@ -120,23 +120,23 @@
 
 ### দিন ০১৫ · ২০২৬-০৯-২৮ · Sliding-র আগে
 
-- [ ] ৩০′ DSA ৬/৩০ — **Container With Most Water** (LC 11 · ১.১ Two Pointers) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৬/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — কেন ছোট দিকের pointer সরাতে হয়, বাচ্চাকে বোঝানোর মতো করে 🧠 (Feynman)
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ৬/৩০, বার্তা দুটো?
 
 ### দিন ০১৬ · ২০২৬-০৯-২৯ · আবেদন
 
-- [ ] ৩০′ DSA ৭/৩০ — **Longest Substring Without Repeating Characters** (LC 3 · ১.২ Sliding Window) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৭/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৪টা
-- [ ] ১৫′ ইংরেজি — sliding window কখন বাড়ে, কখন ছোট হয়, ১ মিনিটে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৪টা আবেদন?
 
 ### দিন ০১৭ · ২০২৬-০৯-৩০ · STAR #৪
 
-- [ ] ৩০′ DSA ৮/৩০ — **Minimum Size Subarray Sum** (LC 209 · ১.২ Sliding Window) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ৮/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ STAR #৪ — **মতবিরোধ:** code review-তে দ্বিমত, বা deadline নিয়ে PM-এর সাথে টানাপোড়েন — ঝগড়া নয়, দ্বিমত সত্ত্বেও কাজ কীভাবে এগোল 🔁 🧠 (Feynman)
 - [ ] ১৫′ ইংরেজি — story #৪ রেকর্ড
 
@@ -144,15 +144,15 @@
 
 ### দিন ০১৮ · ২০২৬-১০-০১ · আবেদন
 
-- [ ] ৩০′ DSA ৯/৩০ — **Binary Search** (LC 704 · ২.১) — টেমপ্লেট না দেখে লেখা 🔁 🧠 (Test yourself)
+- [ ] ৩০′ DSA ৯/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৫টা
-- [ ] ১৫′ ইংরেজি — `lo <= hi` নাকি `lo < hi` — কেন, জোরে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৫টা আবেদন?
 
 ### দিন ০১৯ · ২০২৬-১০-০২ · প্রথম follow-up
 
-- [ ] ৩০′ DSA ১০/৩০ — **Search Insert Position** (LC 35 · ২.১) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১০/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · আর ২০২৬-০৯-২০–২২-এর আবেদনে একবার follow-up
 - [ ] ১৫′ ইংরেজি — follow-up বার্তাটা লেখার আগে মুখে বলুন
 
@@ -176,23 +176,23 @@
 
 ### দিন ০২২ · ২০২৬-১০-০৫ · Rotated array
 
-- [ ] ৩০′ DSA ১১/৩০ — **Find Minimum in Rotated Sorted Array** (LC 153 · ২.৪) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১১/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — কোন অর্ধেক sorted, কীভাবে বুঝলেন
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১১/৩০, বার্তা দুটো?
 
 ### দিন ০২৩ · ২০২৬-১০-০৬ · আবেদন
 
-- [ ] ৩০′ DSA ১২/৩০ — **Capacity to Ship Packages Within D Days** (LC 1011 · ২.২ Binary Search on Answer) — সীমার একটু বাইরে 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১২/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৬টা
-- [ ] ১৫′ ইংরেজি — "binary search on the answer" মানে কী, ৩ বাক্যে 🧠 (Feynman)
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৬টা আবেদন?
 
 ### দিন ০২৪ · ২০২৬-১০-০৭ · STAR #৬ — ব্যর্থতা
 
-- [ ] ৩০′ DSA ১৩/৩০ — **Reverse Linked List** (LC 206 · ৩.৩ In-Place Reversal) — চোখ বন্ধ করে লেখা পর্যন্ত 🔁 🧠 (Test yourself)
+- [ ] ৩০′ DSA ১৩/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ২৫′ ⚑ STAR #৬ — **ব্যর্থতা:** সত্যিকারের একটা ভুল — কী ভুল, দোষ কোথায় আপনার, **তারপর থেকে কী আলাদা করেন** 🔁 🧠 (Failures don't count)
 - [ ] ১৫′ ইংরেজি — story #৬ রেকর্ড
 
@@ -200,17 +200,17 @@
 
 ### দিন ০২৫ · ২০২৬-১০-০৮ · আবেদন
 
-- [ ] ৩০′ DSA ১৪/৩০ — **Middle of the Linked List** (LC 876 · ৩.১ Fast & Slow Pointers) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৪/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৭টা
-- [ ] ১৫′ ইংরেজি — fast pointer দ্বিগুণ চললে slow কেন ঠিক মাঝে থামে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** এ পর্যন্ত ৭টা আবেদন?
 
 ### দিন ০২৬ · ২০২৬-১০-০৯ · follow-up
 
-- [ ] ৩০′ DSA ১৫/৩০ — **Linked List Cycle** (LC 141 · ৩.১ Fast & Slow Pointers) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৫/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · ৭–১০ দিন আগের আবেদনে একবার follow-up
-- [ ] ১৫′ ইংরেজি — ১৫টা প্রবলেমের মধ্যে সবচেয়ে কঠিনটা, কেন কঠিন
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১৫/৩০ — অর্ধেক?
 
@@ -231,15 +231,15 @@
 
 ### দিন ০২৯ · ২০২৬-১০-১২ · Two pointers, list-এ
 
-- [ ] ৩০′ DSA ১৬/৩০ — **Remove Nth Node From End of List** (LC 19 · ৩.১) — n ব্যবধানে দুই pointer + dummy 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৬/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
-- [ ] ১৫′ ইংরেজি — dummy node কেন লাগে
+- [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** DSA ১৬/৩০, বার্তা দুটো?
 
 ### দিন ০৩০ · ২০২৬-১০-১৩ · ব্লক ১-এর হিসাব
 
-- [ ] ৩০′ DSA ১৭/৩০ — **Valid Parentheses** (LC 20 · ৪.২ Stack) 🔁 🧠 (Deliberate practice)
+- [ ] ৩০′ DSA ১৭/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ৮টা
 - [ ] ১০′ ব্লক ১-এর হিসাব — প্রথম আবেদন, ৬ story, ৯ README, ৮ আবেদন, ১৭ DSA: কোনটা বাকি, এক লাইনে কেন; "আমি পারিনি" নয়, "এখনো ___-এ আছি" 🧠 (It's all in the frame)
 - [ ] ১৫′ ইংরেজি — এই ৩০ দিনে কী বদলেছে, ১ মিনিট, রেকর্ড
