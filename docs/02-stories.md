@@ -11,7 +11,7 @@
 ### দিন ০৩১ · ২০২৬-১০-১৪ · GitHub প্রোফাইল
 
 - [ ] ৩০′ DSA ১৮/৩০ — আজকের প্রবলেম [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
-- [ ] ২৫′ GitHub প্রোফাইল পরিষ্কার — pin শুধু `dsa_prep`, `system_design`, `srdtube`; প্রোফাইল README-তে ৩ লাইন: কে, কী বানান, কোথায় 🧠 (Pareto)
+- [ ] ২৫′ GitHub প্রোফাইল পরিষ্কার — pin শুধু `local_company_dsa_prep`, `system_design`, `srdtube`; প্রোফাইল README-তে ৩ লাইন: কে, কী বানান, কোথায় 🧠 (Pareto)
 - [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [local_company_dsa_prep](https://sojibrd.github.io/local_company_dsa_prep/)-এর আজকের দিনে
 
 > **দিন শেষে:** GitHub-এ ঠিক তিনটা pin?
@@ -42,7 +42,7 @@
 ### দিন ০৩৫ · ২০২৬-১০-১৮ · প্রথম রেকর্ডিং
 
 - [ ] ১০′ সপ্তাহের হিসাব
-- [ ] ৩৫′ `dsa_prep`-এর পূর্ণ README — সমস্যা · সিদ্ধান্ত · trade-off · ফলাফল, এক পাতায়; সাথে **একটা কঠিন bug-এর গল্প** (যেমন static export-এ hydration mismatch)
+- [ ] ৩৫′ `local_company_dsa_prep`-এর পূর্ণ README — সমস্যা · সিদ্ধান্ত · trade-off · ফলাফল, এক পাতায়; সাথে **একটা কঠিন bug-এর গল্প** (যেমন static export-এ hydration mismatch)
 - [ ] ১৫′ ইংরেজি — ২ মিনিট নিজের কাজ নিয়ে, রেকর্ড; ফাইলটা `baseline` নামে রেখে দিন — দিন ১৭৫-এ তুলনা হবে 🧠 (Feedback)
 
 > **দিন শেষে:** `baseline` রেকর্ডিং রাখা আছে?
@@ -89,7 +89,7 @@
 
 ### দিন ০৪১ · ২০২৬-১০-২৪ · দশ মিনিট, একটা প্রজেক্ট
 
-- [ ] ৪৫′ `dsa_prep` নিয়ে **১০ মিনিট টানা** ইংরেজিতে — কী বানালেন, কোন সিদ্ধান্ত কেন, কী বাদ দিলেন, কোথায় ভেঙেছিল; রেকর্ড 🔁 🧠 (Active learning)
+- [ ] ৪৫′ `local_company_dsa_prep` নিয়ে **১০ মিনিট টানা** ইংরেজিতে — কী বানালেন, কোন সিদ্ধান্ত কেন, কী বাদ দিলেন, কোথায় ভেঙেছিল; রেকর্ড 🔁 🧠 (Active learning)
 - [ ] ১৫′ রেকর্ডিং শুনে — কোথায় চুপ হলেন, সেই জায়গার জন্য ২ লাইনের নোট 🧠 (Feedback)
 
 > **দিন শেষে:** ১০ মিনিট টানা বলা গেছে?
@@ -196,7 +196,7 @@
 
 - [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · follow-up
-- [ ] ১৫′ ইংরেজি — `dsa_prep`-এর bug-এর গল্প, ৯০ সেকেন্ডে
+- [ ] ১৫′ ইংরেজি — `local_company_dsa_prep`-এর bug-এর গল্প, ৯০ সেকেন্ডে
 
 > **দিন শেষে:** follow-up গেছে?
 
