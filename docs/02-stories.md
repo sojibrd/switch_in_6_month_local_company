@@ -161,7 +161,7 @@
 
 ### দিন ০৫০ · Dip শুরু
 
-- [ ] ৩০′ আজকের ঝালাই — DSA-র ঝালাই [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/review/)-এ, বাকিটা এই সাইটের ঝালাই-তালিকা; দুটোই ফাঁকা থাকলে ৩০টার একটা এলোমেলো প্রবলেম ফাঁকা পাতায় 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই — DSA-র [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/review/)-এ, বাকিটা এই সাইটের ঝালাই-তালিকা, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন — আজ ঐ সাইটে শুরুর তারিখ = আজ 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১০′ `00-rules.md`-এর Dip-এর নিয়ম নিজের ভাষায় ৩ লাইনে লিখুন — কাগজে, ল্যাপটপের পাশে রাখুন 🧠 (The dip)
 - [ ] ১৫′ LinkedIn বার্তা ×২
 - [ ] ১৫′ ইংরেজি — "সাড়া না এলে কী করব" — নিজেকে ১ মিনিট বলুন
@@ -170,7 +170,7 @@
 
 ### দিন ০৫১ · আবেদন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৪টা
 - [ ] ১৫′ ইংরেজি — আজকের ঝালাইয়ের প্রবলেম, approach ৩ লাইন জোরে
 
@@ -178,7 +178,7 @@
 
 ### দিন ০৫২ · বেতন — উৎস ১
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ২৫′ বেতনের হিসাব যাচাই, উৎস ১ — পরিচিত একজন ডেভেলপারকে জিজ্ঞেস: ৪ বছরের frontend লোকালে এখন কত পায়; brainstorming-এর ৪০–৬০% (~৮০–৯০ হাজার) লিখে রাখুন পাশে 🧠 (Trust this one person)
 - [ ] ১৫′ ইংরেজি — "Currently X, and for this role I'm looking at Y–Z" — সংখ্যা ছাড়া কাঠামোটা বলুন
 
@@ -186,7 +186,7 @@
 
 ### দিন ০৫৩ · আবেদন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৫টা
 - [ ] ১৫′ ইংরেজি — আজকের কোম্পানি: "Why this company?"
 
@@ -194,7 +194,7 @@
 
 ### দিন ০৫৪ · follow-up
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · follow-up
 - [ ] ১৫′ ইংরেজি — `dsa_prep_local_company`-এর bug-এর গল্প, ৯০ সেকেন্ডে
 
@@ -217,7 +217,7 @@
 
 ### দিন ০৫৭ · বার্তা
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২
 - [ ] ১৫′ ইংরেজি — story #৬ (ব্যর্থতা) — "তারপর থেকে কী আলাদা করি" অংশটা আরও নির্দিষ্ট করে
 
@@ -225,7 +225,7 @@
 
 ### দিন ০৫৮ · আবেদন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৬টা
 - [ ] ১৫′ ইংরেজি — আজকের JD-র একটা requirement নিয়ে: কোন story দিয়ে প্রমাণ দেবেন
 
@@ -233,7 +233,7 @@
 
 ### দিন ০৫৯ · তিন বাজার, তিন উত্তর
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ২৫′ "Why this company?"-এর তিন সংস্করণ — প্রোডাক্ট (গভীর প্রোডাক্ট), আউটসোর্সিং (ক্লায়েন্টের সাথে ইংরেজিতে কাজ), স্টার্টআপ (ownership, গতি); প্রতিটা ৩ বুলেট 🔁 🧠 (Everything is a game)
 - [ ] ১৫′ ইংরেজি — তিনটাই জোরে, একটার পর একটা
 
@@ -241,7 +241,7 @@
 
 ### দিন ০৬০ · ব্লক ২-এর হিসাব
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৭টা
 - [ ] ১০′ ব্লক ২-এর হিসাব — DSA ৩০, mock-এর সঙ্গী, "Tell me about yourself", তিনটা pin, ১৭ আবেদন: কোনটা বাকি, এক লাইনে 🧠 (It's all in the frame)
 - [ ] ১৫′ ইংরেজি — "Tell me about yourself", রেকর্ড — `baseline`-এর সাথে একবার শুনে দেখুন

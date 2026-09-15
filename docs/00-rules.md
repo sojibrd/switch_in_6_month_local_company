@@ -56,7 +56,7 @@ plan পেছায় না। শুরু থেকে আজ ৫১তম 
 | রবি | সপ্তাহের হিসাব · প্রমাণের কাজ (README, design doc) | ১০′ + ৪৫′ |
 | রোজ | মুখে ইংরেজি — ঐ দিনের কাজ নিয়ে | ১৫′ |
 
-**দিন ০৪৭-এ DSA-র ৩০টা শেষ।** তারপর সোম–শুক্রের ঐ ৩০′ = আজকের ঝালাই — DSA-র ঝালাই [`dsa_prep_local_company`](https://sojibrd.github.io/dsa_prep_local_company/review/)-এ, STAR আর বাকি 🔁 কাজের ঝালাই এই সাইটে — বাকিটা ব্লকের interview-প্রস্তুতি। আবেদন সপ্তাহে ২টা চলতেই থাকবে — সই না হওয়া পর্যন্ত।
+**দিন ০৪৭-এ DSA-র ৩০টা শেষ।** তারপর সোম–শুক্রের ঐ ৩০′-এ আগে আজকের ঝালাই — DSA-র ঝালাই [`dsa_prep_local_company`](https://sojibrd.github.io/dsa_prep_local_company/review/)-এ, STAR আর বাকি 🔁 কাজের ঝালাই এই সাইটে, ১৫′-এর মধ্যে — তারপর দিন ০৫০–০৭৭-এ [লোকাল system design](https://sojibrd.github.io/system_design_local_company/), দিন ০৭৮ থেকে ব্লকের interview-প্রস্তুতি। আবেদন সপ্তাহে ২টা চলতেই থাকবে — সই না হওয়া পর্যন্ত।
 
 দিনের নাম শুধু ছন্দ বোঝাতে; অফিসের ছুটির দিন অনুযায়ী ভারী দিনগুলো সরাতে চাইলে ফাইলে সরান।
 
@@ -86,6 +86,10 @@ plan পেছায় না। শুরু থেকে আজ ৫১তম 
 ### DSA-র বসা — ৩০′
 
 দিন ০০৮–০৪৭-এর ৩০′ DSA-র ঘর চলে [`dsa_prep_local_company`](https://sojibrd.github.io/dsa_prep_local_company/)-এ — কোন দিনে কোন প্রবলেম, বসার ৮ ধাপ, দুই ঘরের নোট আর DSA-র ঝালাই সব ওখানে (ঐ সাইটের দিন ০০১ = এই plan-এর দিন ০০৮)। এখানে টিক দিন শুধু ঘরটা বসা হয়েছে কি না তার জন্য।
+
+### system design-এর বসা
+
+দিন ০৫০–০৭৭-এর সোম–শুক্রের ৩০′-এ ঝালাইয়ের পরের সময়টা চলে [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এ — সাতটা ডক নিজের প্রজেক্ট দিয়ে, `srdtube`-এর ছয় সেকশনের design doc, আর চারটা লোকাল প্রশ্ন মুখে (ঐ সাইটের দিন ০০১ = এই plan-এর দিন ০৫০; ব্যবহারকারীর সিদ্ধান্ত ২০২৬-০৯-১৫)। কাজের লেখা আর তার ঝালাই ওখানে; এখানে টিক দিন শুধু ঘরটা বসা হয়েছে কি না তার জন্য।
 
 ### STAR story-র বসা
 
@@ -147,7 +151,7 @@ plan পেছায় না। শুরু থেকে আজ ৫১তম 
 ## যা করবেন না
 
 - **৩০টার পরে নতুন DSA প্রবলেম নয়।** টপিক ৬–১০ বাংলাদেশি interview-তে প্রায় আসে না — ওগুলো অসম্পূর্ণ কাজ নয়, ভবিষ্যতের মজুদ ([রিমোট](https://sojibrd.github.io/dsa_prep_remote_company/) · [গ্লোবাল](https://sojibrd.github.io/dsa_prep_global_company/) পথে)। Must-do ট্যাগ FAANG-এর, লোকালের নয়।
-- **System design: ৭টা ডক আর নিজের প্রজেক্টের একটা design doc — ব্যস।** Twitter ডিজাইন নয়, CAP theorem নয়।
+- **System design: ৭টা ডক আর নিজের প্রজেক্টের একটা design doc — ব্যস,** দিন ধরে [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এ। Twitter ডিজাইন নয়, CAP theorem নয়।
 - **নতুন প্রজেক্ট নয়।** pin থাকবে তিনটা — `dsa_prep_local_company`, `system_design`, `srdtube`।
 - **Fullstack শেখা আবেদনের শর্ত নয়।** ওটা পরের লাফের গল্প।
 - **"প্রস্তুত হয়ে আবেদন করব" নয়।** প্রথম দুটো interview খারাপ যাবে — ওগুলোই আসল প্রস্তুতি।

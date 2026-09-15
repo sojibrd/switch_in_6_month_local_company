@@ -4,11 +4,11 @@
 
 উত্তরের চেয়ে বেশি দেখা হয় আপনি কীভাবে ভাবছেন। চার ধরনের রাউন্ড — **take-home, live coding, framework নিয়ে গভীর আলোচনা, frontend system design** — প্রতিটার একটা করে ছাঁচ এই ব্লকে। নতুন DSA নয়: live coding-এর অনুশীলন হবে আগের ৩০টার ঝালাই দিয়েই, জোরে, ইংরেজিতে।
 
-System design শুধু বাংলাদেশি interview-এর মাপে — **নিজের প্রজেক্টের একটা design doc**, কল্পনার Twitter নয়।
+System design শুধু বাংলাদেশি interview-এর মাপে — **নিজের প্রজেক্টের একটা design doc**, কল্পনার Twitter নয়। doc-টা লেখা হয় [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এ (এই plan-এর দিন ০৫০–০৭৭); এই ব্লকে ওটা মুখে, doc বন্ধ রেখে।
 
-মাইলফলক: mock #২ দিন ১৩৯-এ। component আর design doc `brainstorming/after-getting-response/04-technical-rounds.md` ও `system-design-what-works-for-local.md` থেকে।
+মাইলফলক: mock #২ দিন ১৩৯-এ। component `brainstorming/after-getting-response/04-technical-rounds.md` থেকে; design doc-এর প্রশ্ন `system-design-what-works-for-local.md` থেকে।
 
-> **ব্লক শেষে:** live coding-এর ৬ ধাপ মুখস্থ, mock #২ হয়েছে, ৪টা component আর `srdtube`-এর design doc আছে?
+> **ব্লক শেষে:** live coding-এর ৬ ধাপ মুখস্থ, mock #২ হয়েছে, ৪টা component আছে, আর `srdtube`-এর design doc doc ছাড়া বলা যায়?
 
 ### দিন ১২১ · আবেদন
 
@@ -158,13 +158,13 @@ System design শুধু বাংলাদেশি interview-এর মা�
 
 > **দিন শেষে:** mock #২ হয়েছে, নোট লেখা?
 
-### দিন ১৪০ · design doc — ১
+### দিন ১৪০ · design doc মুখে — ১
 
 - [ ] ১০′ সপ্তাহের হিসাব
-- [ ] ৩৫′ `srdtube`-এর design doc, ছয় সেকশনের প্রথম তিনটা — **কী বানিয়েছি · কতজন ব্যবহারকারী ধরে · কোন সিদ্ধান্ত কেন** (quota, batching, pagination); ইংরেজিতে বুলেট 🧠 (Active learning)
+- [ ] ৩৫′ `srdtube`-এর design doc **মুখে**, doc বন্ধ — প্রথম তিন সেকশন: **কী বানিয়েছি · কতজন ব্যবহারকারী ধরে · কোন সিদ্ধান্ত কেন**; রেকর্ড। লেখা হয়েছে [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এ 🧠 (Test yourself · Active learning)
 - [ ] ১৫′ ইংরেজি — mock #২-এর "একটা জিনিস" নিয়ে একটা প্রবলেম আবার, জোরে 🧠 (Deliberate practice)
 
-> **দিন শেষে:** design doc-এর তিন সেকশন লেখা?
+> **দিন শেষে:** তিন সেকশন doc ছাড়া বলা গেছে?
 
 ### দিন ১৪১ · বার্তা
 
@@ -213,13 +213,13 @@ System design শুধু বাংলাদেশি interview-এর মা�
 
 > **দিন শেষে:** সীমার মধ্যে জমা হলো, বাড়তি ফিচার ছাড়া?
 
-### দিন ১৪৭ · design doc — ২
+### দিন ১৪৭ · design doc মুখে — ২
 
 - [ ] ১০′ সপ্তাহের হিসাব
-- [ ] ৩৫′ `srdtube`-এর design doc, বাকি তিনটা — **কী বাদ দিয়েছি · গঠনটা কেমন · কোথায় ভাঙবে**; শেষে চারটা লোকাল প্রশ্নের উত্তর: *"ট্রাফিক বাড়লে?" · "cache কোথায়?" · "API কীভাবে ডিজাইন করতেন?" · "সমস্যা হলে বুঝবেন কীভাবে?"* — `system_design`-এর ডক ১১, ১৩, ১৫, ১৮ মিলিয়ে 🔁 🧠 (Pareto)
+- [ ] ৩৫′ `srdtube`-এর doc মুখে, বাকি তিনটা — **কী বাদ দিয়েছি · গঠনটা কেমন · কোথায় ভাঙবে**; শেষে চারটা লোকাল প্রশ্ন, doc বন্ধ: *"ট্রাফিক বাড়লে?" · "cache কোথায়?" · "API কীভাবে ডিজাইন করতেন?" · "সমস্যা হলে বুঝবেন কীভাবে?"*; রেকর্ড 🧠 (Test yourself · Pareto)
 - [ ] ১৫′ ইংরেজি — "কোথায় ভাঙবে" সেকশন, সহজ উত্তর আগে, তারপর *"Would you like more detail?"*
 
-> **দিন শেষে:** ছয় সেকশনের design doc সম্পূর্ণ?
+> **দিন শেষে:** ছয় সেকশন আর চার প্রশ্ন doc ছাড়া বলা গেছে?
 
 ### দিন ১৪৮ · বার্তা
 

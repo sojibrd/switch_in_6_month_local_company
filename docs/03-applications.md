@@ -12,7 +12,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬১ · follow-up
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · ৭–১০ দিন আগের আবেদনে একবার follow-up
 - [ ] ১৫′ ইংরেজি — এই সপ্তাহে কোন ঝালাইয়ে "আটকে গেছি" হয়েছে, কেন
 
@@ -35,7 +35,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬৪ · বার্তা
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২ — কালকের আবেদনের কোম্পানিতে
 - [ ] ১৫′ ইংরেজি — ঝালাইয়ের প্রবলেম, আগে brute force তারপর ভালোটা, জোরে
 
@@ -43,7 +43,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬৫ · আবেদন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৮টা
 - [ ] ১৫′ ইংরেজি — আজকের কোম্পানির জন্য "Tell me about yourself"
 
@@ -51,7 +51,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬৬ · আপনার প্রশ্ন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ২৫′ interviewer-কে আপনি যা জিজ্ঞেস করবেন — ৫টা প্রশ্ন ইংরেজিতে (টিম, কাজের ধরন, প্রথম তিন মাস, code review, পরের ধাপ); [`behavioural_interview`](../../behavioural_interview/docs/04-question-bank/02-questions-you-ask.md) মিলিয়ে 🧠 (Everything is a game)
 - [ ] ১৫′ ইংরেজি — পাঁচটা প্রশ্ন জোরে, স্বাভাবিক গলায়
 
@@ -59,7 +59,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬৭ · আবেদন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ১৯টা
 - [ ] ১৫′ ইংরেজি — "Why this company?" — আজকের কোম্পানি কোন বাজারের, সেই সংস্করণে
 
@@ -67,7 +67,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬৮ · follow-up
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · follow-up
 - [ ] ১৫′ ইংরেজি — story #৪ (মতবিরোধ) — "we" গুনে দেখুন, কমান
 
@@ -90,7 +90,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৭১ · বার্তা
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×২ — কালকের ২০তম আবেদনের কোম্পানিতে
 - [ ] ১৫′ ইংরেজি — "Tell me about yourself", ঠান্ডা শুরুতে
 
@@ -98,7 +98,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৭২ · বিশতম আবেদন
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ ⚑ **আবেদন — এ পর্যন্ত ২০টা** — প্রথম লক্ষ্যের প্রথম অর্ধেক 🧠 (System vs goal)
 - [ ] ১৫′ ইংরেজি — যাকে দিন ০০১-এ বলেছিলেন, তাকে জানান — ইংরেজিতে এক মিনিটের voice note 🧠 (Stakes & Rewards)
 
@@ -106,7 +106,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৭৩ · ২৪ ঘণ্টার উত্তর
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ২৫′ সাড়া এলে পাঠানোর ইংরেজি ইমেইলের ছাঁচ — ধন্যবাদ + ২–৩টা সময়ের বিকল্প + কোন কোন রাউন্ড হবে জানতে চাওয়া; spreadsheet-এর পাশে রাখুন
 - [ ] ১৫′ ইংরেজি — ফোনে সাড়া এলে একই কথা মুখে: *"Thank you for reaching out…"*
 
@@ -114,7 +114,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৭৪ · আবেদন চলতেই থাকে
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ৩০′ আবেদন — এ পর্যন্ত লক্ষ্য ২১টা; ২০-এর পরেও সপ্তাহে ২টা 🧠 (System vs goal)
 - [ ] ১৫′ ইংরেজি — ঝালাইয়ের প্রবলেম, complexity সহ
 
@@ -122,7 +122,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৭৫ · follow-up
 
-- [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
+- [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
 - [ ] ১৫′ LinkedIn বার্তা ×১ · follow-up
 - [ ] ১৫′ ইংরেজি — story #৫ (অন্যকে সাহায্য), ৯০ সেকেন্ড
 

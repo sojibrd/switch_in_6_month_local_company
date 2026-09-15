@@ -26,7 +26,7 @@
 - **Progress শুধু `localStorage`-এ,** একমাত্র `app/hooks/useProgress.ts` দিয়ে।
 - **`app/lib/plan.ts` server-only।**
 - **তিন plan-এর কোড এক।** পার্থক্য শুধু `app/lib/site.ts`, `next.config.ts`-এর basePath আর `docs/`। কোড বদলালে তিন repo-তেই একই বদল।
-- **Theme contract অলঙ্ঘনীয়, সাইট dark-only।** Tailwind শুধু লেআউটে; চেহারা role class আর `--t-*` টোকেনে। DSA-র প্রবলেম, নোট আর ঝালাই `dsa_prep_local_company`-এ।
+- **Theme contract অলঙ্ঘনীয়, সাইট dark-only।** Tailwind শুধু লেআউটে; চেহারা role class আর `--t-*` টোকেনে। DSA-র প্রবলেম, নোট আর ঝালাই `dsa_prep_local_company`-এ; দিন ০৫০–০৭৭-এর system design [`system_design_local_company`](https://sojibrd.github.io/system_design_local_company/)-এ।
 - **স্ট্যাক:** Next.js 16, React 19, TypeScript, Tailwind v4, react-markdown।
 
 ## ডক ইনডেক্স
