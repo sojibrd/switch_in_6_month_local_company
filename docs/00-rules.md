@@ -12,7 +12,7 @@ offer পাওয়া লক্ষ্য নয় — কে নিয়ো
 
 এই plan নতুন কোনো লক্ষ্য, সংখ্যা বা তারিখ যোগ করে না — শুধু আগে থেকে লেখা কাজগুলো দিনে ভাঙে। কোনো তথ্য বদলালে এই ক্রমে:
 
-1. `legacy_and_wisdom/docs/ASSUMPTIONS.md`
+1. `brainstorming/ASSUMPTIONS.md`
 2. `brainstorming/` — বিশেষ করে `what-will-be-my-first-goal.md`, `crack-bangladeshi-company-roadmap.md`, `after-cv-approach.md`, `after-getting-response/`
 3. এই ফোল্ডার
 

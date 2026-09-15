@@ -59,7 +59,7 @@
 
 ### তথ্য বদলানোর ক্রম
 
-`legacy_and_wisdom/docs/ASSUMPTIONS.md` → `brainstorming/` → এই ফোল্ডারের `docs/`।
+`brainstorming/ASSUMPTIONS.md` → `brainstorming/` → এই ফোল্ডারের `docs/`।
 
 ### ব্লক ফাইলের যে ছাঁচ parser মানে
 
