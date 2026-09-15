@@ -1,10 +1,10 @@
-# switch_local_company_in_6_month
+# switch_in_6_month_local_company
 
 ১৮০ দিনের plan: বাংলাদেশি কোম্পানিতে ২০টা আবেদন আর অন্তত ৫টা সম্পূর্ণ interview process। প্রতিদিন একটা করে করার কাজ, শেখার বিজ্ঞান মেনে। ২০২৬-০৯-১৪-এ শুরু হয়েছে।
 
-এটা তিনটা বিকল্প plan-এর একটা। একজন একটাই চালায়: **লোকাল** (এটা) · [রিমোট](https://github.com/sojibrd/switch_remote_company_in_6_month) · [গ্লোবাল](https://github.com/sojibrd/switch_global_company_in_6_month)। তিনটার কোড হুবহু এক।
+এটা তিনটা বিকল্প plan-এর একটা। একজন একটাই চালায়: **লোকাল** (এটা) · [রিমোট](https://github.com/sojibrd/switch_in_6_month_remote_company) · [গ্লোবাল](https://github.com/sojibrd/switch_in_6_month_global_company)। তিনটার কোড হুবহু এক।
 
-**লাইভ:** https://sojibrd.github.io/switch_local_company_in_6_month/
+**লাইভ:** https://sojibrd.github.io/switch_in_6_month_local_company/
 
 ## Functional Requirement
 

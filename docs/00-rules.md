@@ -16,7 +16,7 @@ offer পাওয়া লক্ষ্য নয় — কে নিয়ো
 2. `brainstorming/` — বিশেষ করে `what-will-be-my-first-goal.md`, `crack-bangladeshi-company-roadmap.md`, `after-cv-approach.md`, `after-getting-response/`
 3. এই ফোল্ডার
 
-এটা তিনটা বিকল্প plan-এর একটা — একজন একটাই চালায়: **লোকাল** (এটা) · [রিমোট](https://sojibrd.github.io/switch_remote_company_in_6_month/) · [গ্লোবাল](https://sojibrd.github.io/switch_global_company_in_6_month/)। রিমোট আবেদন, সিভির রিমোট সংস্করণ আর টাকা আনার ব্যবস্থা রিমোটের plan-এ।
+এটা তিনটা বিকল্প plan-এর একটা — একজন একটাই চালায়: **লোকাল** (এটা) · [রিমোট](https://sojibrd.github.io/switch_in_6_month_remote_company/) · [গ্লোবাল](https://sojibrd.github.io/switch_in_6_month_global_company/)। রিমোট আবেদন, সিভির রিমোট সংস্করণ আর টাকা আনার ব্যবস্থা রিমোটের plan-এ।
 
 ## কীভাবে পড়বেন
 
