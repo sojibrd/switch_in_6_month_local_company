@@ -47,7 +47,7 @@
 
 ### দিন ০০৬ · প্রথম STAR story
 
-- [ ] ৪০′ STAR #১ — **দায়িত্ব নেওয়া:** কেউ বলেনি, তবু নিজে থেকে কিছু ঠিক করেছেন; ইংরেজিতে বুলেট, Action ৬০%, "I" 🔁 🧠 (Feynman)
+- [ ] ৪০′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: STAR #১, দায়িত্ব নেওয়া; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — story #১ জোরে, ফোনে রেকর্ড; ৯০ সেকেন্ডে শেষ হলো? 🧠 (Feedback)
 - [ ] ৫′ তালিকার প্রথম ৫টা কোম্পানিতে LinkedIn-এ পরিচিত কেউ আছে কি না — নোট কলামে
 
@@ -81,7 +81,7 @@
 ### দিন ০১০ · STAR #২
 
 - [ ] ৩০′ DSA ৩/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
-- [ ] ২৫′ STAR #২ — **কঠিন কারিগরি সিদ্ধান্ত:** অফিসের কোনো architecture বা library বাছাই; কী কী বিকল্প ছিল, কেন এটা 🔁 🧠 (Feynman)
+- [ ] ২৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: STAR #২, কঠিন কারিগরি সিদ্ধান্ত; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — story #২ রেকর্ড, ৯০ সেকেন্ড
 
 > **দিন শেষে:** story #২ রেকর্ড করা?
@@ -104,8 +104,7 @@
 
 ### দিন ০১৩ · STAR #৩
 
-- [ ] ৪০′ STAR #৩ — **অস্পষ্ট পরিস্থিতি:** অসম্পূর্ণ requirement নিয়ে কাজ শুরু করতে হয়েছিল এমন কোনো ফিচার 🔁 🧠 (Feynman)
-- [ ] ১০′ তিনটা story পাশাপাশি — কোনটা কোন ধরনের প্রশ্নে খাটে, এক লাইনে ম্যাপ 🧠 (Chunk the subject)
+- [ ] ৫০′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: STAR #৩ আর তিন story-র ম্যাপ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — story #৩ রেকর্ড, শুনে একটা জিনিস বদলে আবার
 
 > **দিন শেষে:** তিনটা story লেখা আর ম্যাপ করা?
@@ -137,7 +136,7 @@
 ### দিন ০১৭ · STAR #৪
 
 - [ ] ৩০′ DSA ৮/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
-- [ ] ২৫′ STAR #৪ — **মতবিরোধ:** code review-তে দ্বিমত, বা deadline নিয়ে PM-এর সাথে টানাপোড়েন — ঝগড়া নয়, দ্বিমত সত্ত্বেও কাজ কীভাবে এগোল 🔁 🧠 (Feynman)
+- [ ] ২৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: STAR #৪, মতবিরোধ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — story #৪ রেকর্ড
 
 > **দিন শেষে:** story #৪ রেকর্ড করা?
@@ -160,8 +159,7 @@
 
 ### দিন ০২০ · STAR #৫
 
-- [ ] ৪০′ STAR #৫ — **অন্যকে সাহায্য:** কোনো junior বা নতুন সহকর্মীকে কিছু শিখিয়েছেন 🔁 🧠 (Feynman)
-- [ ] ১৫′ story #১–#৪: প্রতিটায় *"What would you do differently?"* — নোট বন্ধ করে উত্তর 🧠 (Test yourself)
+- [ ] ৫৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: STAR #৫ আর চারটার differently; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — story #৫ রেকর্ড
 
 > **দিন শেষে:** পাঁচটা story, প্রতিটার "differently" উত্তর আছে?
@@ -193,7 +191,7 @@
 ### দিন ০২৪ · STAR #৬ — ব্যর্থতা
 
 - [ ] ৩০′ DSA ১৩/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
-- [ ] ২৫′ ⚑ STAR #৬ — **ব্যর্থতা:** সত্যিকারের একটা ভুল — কী ভুল, দোষ কোথায় আপনার, **তারপর থেকে কী আলাদা করেন** 🔁 🧠 (Failures don't count)
+- [ ] ২৫′ ⚑ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: STAR #৬, ব্যর্থতা; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — story #৬ রেকর্ড
 
 > **দিন শেষে:** ছয়টা story লেখা?
@@ -216,8 +214,7 @@
 
 ### দিন ০২৭ · ছয় story, এলোমেলো
 
-- [ ] ৫০′ ছয়টা story এলোমেলো প্রশ্নে — [`behavioural_interview` প্রশ্ন ব্যাংক](../../behavioural_interview/docs/04-question-bank/01-high-frequency-questions.md) থেকে ৬টা প্রশ্ন এলোমেলো তুলে, নোট বন্ধ, প্রতিটার উত্তর রেকর্ড 🧠 (Interleaving · Test yourself)
-- [ ] ১০′ কোন story সবচেয়ে দুর্বল — এক লাইনে; ওটার ঝালাইয়ে ঐ দুর্বলতা ধরবেন 🧠 (Deliberate practice)
+- [ ] ৬০′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: ছয় story এলোমেলো প্রশ্নে; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 
 > **দিন শেষে:** ৬টা প্রশ্নেই কোনো একটা story খাপ খেয়েছে?
 

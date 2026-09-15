@@ -20,7 +20,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬২ · follow-up প্রশ্নে টেকা
 
-- [ ] ৪৫′ story #১–#৩ — প্রতিটায় তিনটা follow-up নিজেকে জিজ্ঞেস করে উত্তর: *"Why did you choose that?" · "What was the result, exactly?" · "What would you do differently?"*; রেকর্ড 🧠 (Test yourself)
+- [ ] ৪৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: story #১–#৩-এ follow-up; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — যে follow-up-এ থামলেন, সেটার উত্তর আবার, ধীরে
 
 > **দিন শেষে:** ৯টা follow-up-এর উত্তর দেওয়া গেছে?
@@ -52,7 +52,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 ### দিন ০৬৬ · আপনার প্রশ্ন
 
 - [ ] ৩০′ আগে আজকের ঝালাই, ১৫′-এর মধ্যে; তারপর [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এর আজকের দিন 🧠 (Spaced repetition · Deliberate practice)
-- [ ] ২৫′ interviewer-কে আপনি যা জিজ্ঞেস করবেন — ৫টা প্রশ্ন ইংরেজিতে (টিম, কাজের ধরন, প্রথম তিন মাস, code review, পরের ধাপ); [`behavioural_interview`](../../behavioural_interview/docs/04-question-bank/02-questions-you-ask.md) মিলিয়ে 🧠 (Everything is a game)
+- [ ] ২৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: interviewer-কে আপনার পাঁচ প্রশ্ন; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — পাঁচটা প্রশ্ন জোরে, স্বাভাবিক গলায়
 
 > **দিন শেষে:** ৫টা প্রশ্ন লেখা?
@@ -75,7 +75,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৬৯ · তিন দৈর্ঘ্য — ১
 
-- [ ] ৪৫′ story #১–#৩ তিন দৈর্ঘ্যে — ৩০ সেকেন্ড, ৯০ সেকেন্ড, ৩ মিনিট; প্রতিটা রেকর্ড 🧠 (Deliberate practice)
+- [ ] ৪৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: story #১–#৩ তিন দৈর্ঘ্যে; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — ৩০ সেকেন্ডের সংস্করণে কোন অংশ বাদ গেল, কেন ঠিক
 
 > **দিন শেষে:** তিনটা story তিন দৈর্ঘ্যে বলা গেছে?
@@ -130,7 +130,7 @@ DSA এখন শুধু ঝালাই। নতুন অভ্যাস �
 
 ### দিন ০৭৬ · তিন দৈর্ঘ্য — ২
 
-- [ ] ৪৫′ story #৪–#৬ তিন দৈর্ঘ্যে — ৩০ সেকেন্ড, ৯০ সেকেন্ড, ৩ মিনিট; প্রতিটা রেকর্ড 🧠 (Deliberate practice)
+- [ ] ৪৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: story #৪–#৬ তিন দৈর্ঘ্যে; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — ব্যর্থতার story-র ৩০ সেকেন্ডের সংস্করণ, তিনবার
 
 > **দিন শেষে:** ছয়টা story-ই তিন দৈর্ঘ্যে আছে?

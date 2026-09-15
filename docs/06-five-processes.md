@@ -28,7 +28,7 @@
 
 ### দিন ১৫৩ · ছয় story, যেকোনো প্রশ্নে
 
-- [ ] ৫০′ প্রশ্ন ব্যাংক থেকে **৮টা প্রশ্ন এলোমেলো**, আগে কখনো না তোলা; নোট বন্ধ, প্রতিটায় ৯০ সেকেন্ড, একই ধরনের দুটো পরপর নয়; রেকর্ড 🧠 (Interleaving · Test yourself)
+- [ ] ৫০′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: আটটা প্রশ্ন এলোমেলো; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১০′ ইংরেজি — কোন প্রশ্নে কোনো story খাপ খায়নি — ঐ প্রশ্নটা লিখে রাখুন
 
 > **দিন শেষে:** ৮টার মধ্যে কয়টায় story খাপ খেয়েছে — সংখ্যা লেখা?
@@ -36,7 +36,7 @@
 ### দিন ১৫৪ · story-র ম্যাপে ফাঁক
 
 - [ ] ১০′ সপ্তাহের হিসাব
-- [ ] ৩৫′ story → signal ম্যাপ — দায়িত্ব, মতবিরোধ, ব্যর্থতা, অস্পষ্টতা, প্রভাব, শেখা; প্রতিটায় অন্তত একটা story? কালকের খাপ-না-খাওয়া প্রশ্ন কোন story-কে একটু বদলে ঢাকা যায় — [`behavioural_interview`](../../behavioural_interview/docs/02-stories/06-story-signal-map.md) মিলিয়ে 🧠 (Chunk the subject)
+- [ ] ৩৫′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: story → signal ম্যাপে ফাঁক; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১৫′ ইংরেজি — বদলানো story-টা, রেকর্ড
 
 > **দিন শেষে:** প্রতিটা signal-এ অন্তত একটা story?

@@ -227,7 +227,7 @@
 
 ### দিন ১১৮ · কোম্পানিভেদে story
 
-- [ ] ৫০′ একই প্রশ্ন, তিন বাজার — প্রোডাক্ট, আউটসোর্সিং, স্টার্টআপের interviewer একই "Tell me about a time…"-এ কী শুনতে চায়; ৩টা প্রশ্ন × ৩ বাজার, নোট বন্ধ, রেকর্ড — [`behavioural_interview`](../../behavioural_interview/docs/04-question-bank/03-company-variants.md) মিলিয়ে 🧠 (Interleaving · Everything is a game)
+- [ ] ৫০′ behavioural — [লোকাল behavioural](https://sojibrd.github.io/behavioural_interview_local_company/)-এর আজকের দিন: একই প্রশ্ন, তিন বাজার; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
 - [ ] ১০′ ইংরেজি — কোন বাজারে কোন story সবচেয়ে ভালো খাটে, এক লাইনে করে
 
 > **দিন শেষে:** তিন বাজারের জন্য story বাছাই লেখা?
