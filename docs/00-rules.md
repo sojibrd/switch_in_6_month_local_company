@@ -147,7 +147,7 @@ plan পেছায় না। শুরু থেকে আজ ৫১তম 
 
 - **৩০টার পরে নতুন DSA প্রবলেম নয়।** টপিক ৬–১০ বাংলাদেশি interview-তে প্রায় আসে না — ওগুলো অসম্পূর্ণ কাজ নয়, ভবিষ্যতের মজুদ ([রিমোট](https://sojibrd.github.io/dsa_prep_remote_company/) · [গ্লোবাল](https://sojibrd.github.io/dsa_prep_global_company/) পথে)। Must-do ট্যাগ FAANG-এর, লোকালের নয়।
 - **System design: ৭টা ডক আর নিজের প্রজেক্টের একটা design doc — ব্যস,** দিন ধরে [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এ। Twitter ডিজাইন নয়, CAP theorem নয়।
-- **নতুন প্রজেক্ট নয়।** pin থাকবে তিনটা — `dsa_prep_local_company`, `system_design`, `srdtube`।
+- **নতুন প্রজেক্ট নয়।** pin থাকবে তিনটা — `dsa_prep_local_company`, `system_design_local_company`, `srdtube`।
 - **Fullstack শেখা আবেদনের শর্ত নয়।** ওটা পরের লাফের গল্প।
 - **"প্রস্তুত হয়ে আবেদন করব" নয়।** প্রথম দুটো interview খারাপ যাবে — ওগুলোই আসল প্রস্তুতি।
 - **বর্তমান চাকরি ছাড়বেন না।** বেতন হাতে রেখে খোঁজাই সবচেয়ে শক্ত অবস্থান।

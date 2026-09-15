@@ -11,7 +11,7 @@
 ### দিন ০৩১ · GitHub প্রোফাইল
 
 - [ ] ৩০′ DSA ১৮/৩০ — আজকের প্রবলেম [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এ; ঝালাইও ঐ সাইটে 🧠 (Deliberate practice)
-- [ ] ২৫′ GitHub প্রোফাইল পরিষ্কার — pin শুধু `dsa_prep_local_company`, `system_design`, `srdtube`; প্রোফাইল README-তে ৩ লাইন: কে, কী বানান, কোথায় 🧠 (Pareto)
+- [ ] ২৫′ GitHub প্রোফাইল পরিষ্কার — pin শুধু `dsa_prep_local_company`, `system_design_local_company`, `srdtube`; প্রোফাইল README-তে ৩ লাইন: কে, কী বানান, কোথায় 🧠 (Pareto)
 - [ ] ১৫′ ইংরেজি — আজকের DSA প্রবলেমের approach জোরে; প্রশ্নটা [dsa_prep_local_company](https://sojibrd.github.io/dsa_prep_local_company/)-এর আজকের দিনে
 
 > **দিন শেষে:** GitHub-এ ঠিক তিনটা pin?
@@ -97,10 +97,10 @@
 ### দিন ০৪২ · দশ আবেদনের ফানেল
 
 - [ ] ১০′ সপ্তাহের হিসাব — ১১টা আবেদনে সাড়া কয়টা? শুধু লিখুন, এখনই সিদ্ধান্ত নয়
-- [ ] ৩৫′ `system_design`-এর পূর্ণ README — সমস্যা · সিদ্ধান্ত · trade-off · ফলাফল + একটা কঠিন bug-এর গল্প
+- [ ] ৩৫′ `system_design_local_company`-এর পূর্ণ README — সমস্যা · সিদ্ধান্ত · trade-off · ফলাফল + একটা কঠিন bug-এর গল্প
 - [ ] ১৫′ ইংরেজি — theme contract কেন, ১ মিনিটে — "আমি নিয়ম বানাই" গল্পটা
 
-> **দিন শেষে:** `system_design` README সম্পূর্ণ?
+> **দিন শেষে:** `system_design_local_company` README সম্পূর্ণ?
 
 ### দিন ০৪৩ · শেষ সপ্তাহ
 
@@ -203,7 +203,7 @@
 ### দিন ০৫৫ · বেতন — উৎস ২ ও ৩
 
 - [ ] ৪০′ বেতনের হিসাব, উৎস ২ ও ৩ — সাম্প্রতিক ৫টা লোকাল job post-এর পরিসর, আর একজন recruiter বা HR পরিচিতকে জিজ্ঞেস; তিন উৎস পাশাপাশি এক টেবিলে 🧠 (Trust this one person)
-- [ ] ২০′ ইংরেজি — `system_design` নিয়ে ৫ মিনিট টানা, রেকর্ড 🧠 (Feedback)
+- [ ] ২০′ ইংরেজি — `system_design_local_company` নিয়ে ৫ মিনিট টানা, রেকর্ড 🧠 (Feedback)
 
 > **দিন শেষে:** তিন উৎসের সংখ্যা এক টেবিলে?
 
