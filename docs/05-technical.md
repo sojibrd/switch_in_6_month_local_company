@@ -6,7 +6,7 @@
 
 System design শুধু বাংলাদেশি interview-এর মাপে — **নিজের প্রজেক্টের একটা design doc**, কল্পনার Twitter নয়। doc-টা লেখা হয় [লোকাল system design](https://sojibrd.github.io/system_design_local_company/)-এ (এই plan-এর দিন ০৫০–০৭৭); এই ব্লকে ওটা মুখে, doc বন্ধ রেখে।
 
-মাইলফলক: mock #২ দিন ১৩৯-এ। component `brainstorming/after-getting-response/04-technical-rounds.md` থেকে; design doc-এর প্রশ্ন `system-design-what-works-for-local.md` থেকে।
+মাইলফলক: mock #২ দিন ১৩৯-এ। component `brainstorming/application-to-offer.md`-এর ধাপ ৪ থেকে; design doc-এর প্রশ্ন `brainstorming/system-design.md`-এর "বাংলাদেশির জন্য কী ভালো" সেকশন থেকে।
 
 > **ব্লক শেষে:** live coding-এর ৬ ধাপ মুখস্থ, mock #২ হয়েছে, ৪টা component আছে, আর `srdtube`-এর design doc doc ছাড়া বলা যায়?
 

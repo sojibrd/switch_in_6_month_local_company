@@ -224,7 +224,7 @@
 ### দিন ১৭৮ · দিন ১৮০-র পরের ছন্দ
 
 - [ ] ৩০′ আজকের ঝালাই 🧠 (Spaced repetition)
-- [ ] ২৫′ দিন ১৮০-র পরের তিন সপ্তাহ — `00-rules.md`-এর "দিন ১৮০-র পরে" আর `brainstorming/after-getting-response/06-offer-and-resign.md` দেখে সপ্তাহের ছন্দ লিখুন: আবেদন কয়টা, ঝালাই কখন, চলমান process কীভাবে; offer আসুক বা না আসুক 🧠 (System vs goal · Create a roadmap)
+- [ ] ২৫′ দিন ১৮০-র পরের তিন সপ্তাহ — `00-rules.md`-এর "দিন ১৮০-র পরে" আর `brainstorming/application-to-offer.md`-এর ধাপ ৬ দেখে সপ্তাহের ছন্দ লিখুন: আবেদন কয়টা, ঝালাই কখন, চলমান process কীভাবে; offer আসুক বা না আসুক 🧠 (System vs goal · Create a roadmap)
 - [ ] ১৫′ ইংরেজি — পরের তিন সপ্তাহের পরিকল্পনা, ১ মিনিটে
 
 > **দিন শেষে:** পরের তিন সপ্তাহের ছন্দ লেখা?

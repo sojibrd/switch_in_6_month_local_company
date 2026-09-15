@@ -13,7 +13,7 @@ offer পাওয়া লক্ষ্য নয় — কে নিয়ো
 এই plan নতুন কোনো লক্ষ্য, সংখ্যা বা তারিখ যোগ করে না — শুধু আগে থেকে লেখা কাজগুলো দিনে ভাঙে। কোনো তথ্য বদলালে এই ক্রমে:
 
 1. `brainstorming/ASSUMPTIONS.md`
-2. `brainstorming/` — বিশেষ করে `what-will-be-my-first-goal.md`, `crack-bangladeshi-company-roadmap.md`, `after-cv-approach.md`, `after-getting-response/`
+2. `brainstorming/` — বিশেষ করে `root-problem-and-first-goal.md` (প্রথম লক্ষ্য), `which-market.md` (বাংলাদেশি কোম্পানি), `application-to-offer.md`
 3. এই ফোল্ডার
 
 এটা তিনটা বিকল্প plan-এর একটা — একজন একটাই চালায়: **লোকাল** (এটা) · [রিমোট](https://sojibrd.github.io/switch_in_6_month_remote_company/) · [গ্লোবাল](https://sojibrd.github.io/switch_in_6_month_global_company/)। রিমোট আবেদন, সিভির রিমোট সংস্করণ আর টাকা আনার ব্যবস্থা রিমোটের plan-এ।
@@ -159,5 +159,5 @@ plan পেছায় না। শুরু থেকে আজ ৫১তম 
 
 ## দিন ১৮০-র পরে
 
-- **offer এলে** — ১৮০ দিনের আগে হোক বা পরে: `brainstorming/after-getting-response/06-offer-and-resign.md` আর `07-notice-period.md` — লিখিত offer, একবার দরাদরি, সইয়ের পরে পদত্যাগ, notice।
+- **offer এলে** — ১৮০ দিনের আগে হোক বা পরে: `brainstorming/application-to-offer.md`-এর ধাপ ৬ আর `after-joining.md`-এর ধাপ ৭ — লিখিত offer, একবার দরাদরি, সইয়ের পরে পদত্যাগ, notice।
 - **না এলে** সপ্তাহের ছন্দ চলতে থাকবে — **সই না হওয়া পর্যন্ত আবেদন থামাবেন না।**
