@@ -10,7 +10,7 @@ export const SITE: {
   emoji: string;
   description: string;
   storagePrefix: string;
-  defaultStart: string | null;
+  suggestedStart: string | null;
 } = {
   title: "৬ মাসে লোকাল কোম্পানি",
   short: "৬ মাসে লোকাল বদল",
@@ -20,9 +20,9 @@ export const SITE: {
   /** localStorage key-এর prefix — তিন plan-এর progress আলাদা থাকে */
   storagePrefix: "slc6",
   /**
-   * শুরুর তারিখ বসানো না থাকলে এটাই শুরু। লোকালের plan ফাইলে তারিখ লেখা অবস্থায়
-   * ২০২৬-০৯-১৪-এ শুরু হয়েছিল — পুরনো টিক যাতে ঠিক দিনে থাকে। `null` = প্রথমবার
-   * খুললে জিজ্ঞেস করে।
+   * শুরুর তারিখ না থাকলে প্রস্তাব — plan ফাইলে তারিখ লেখা অবস্থায় লোকালের plan
+   * ২০২৬-০৯-১৪-এ শুরু হয়েছিল, তাই ঐ তারিখটাই input-এ আগে থেকে বসানো। বাছাই না
+   * করা পর্যন্ত সাইট কোনো তারিখ ধরে না — প্রথমবার খুললে জিজ্ঞেস করে।
    */
-  defaultStart: "2026-09-14",
+  suggestedStart: "2026-09-14",
 };

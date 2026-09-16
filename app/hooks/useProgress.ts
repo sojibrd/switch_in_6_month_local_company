@@ -47,8 +47,8 @@ export function useProgress() {
   const [answers, setAnswers] = useLocalStorage<Answers>(CHECK_KEY, {});
   const [reviews, setReviews] = useLocalStorage<Reviews>(REVIEW_KEY, {});
 
-  /** বসানো না থাকলে বা নষ্ট হলে `SITE.defaultStart`; সেটাও না থাকলে `null` */
-  const start = isISODate(startRaw) ? startRaw : SITE.defaultStart;
+  /** বসানো না থাকলে বা নষ্ট হলে `null` */
+  const start = isISODate(startRaw) ? startRaw : null;
 
   const setStart = useCallback((iso: string) => setStartRaw(isISODate(iso) ? iso : ""), [setStartRaw]);
 

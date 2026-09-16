@@ -14,7 +14,7 @@ import { useProgress } from "../hooks/useProgress";
 export default function StartDate({ compact = false }: { compact?: boolean }) {
   const { start, setStart } = useProgress();
   const [editing, setEditing] = useState(false);
-  const [draft, setDraft] = useState(start ?? SITE.defaultStart ?? todayISO());
+  const [draft, setDraft] = useState(start ?? SITE.suggestedStart ?? todayISO());
 
   if (compact && start && !editing) {
     return (
