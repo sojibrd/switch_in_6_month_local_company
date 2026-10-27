@@ -9,13 +9,14 @@ import { useMounted, useProgress } from "../hooks/useProgress";
 
 /**
  * একটা কাজ: নেটিভ checkbox (`.check`), টিক দিলে লেখা কাটা, কবে শেষ হলো তার তারিখ,
- * আর মিনিট / ⚑ / 🔁 / 🧠 chip।
+ * আর মিনিট / ⚑ / 🔁 / 🧠 chip। টিকের পরে "কোথায় আটকালেন"-এর এক লাইন — cloud-এ
+ * sync হয়, আর 🔁 কাজে ঝালাইয়ের সারিতে ফিরে আসে। 🧠 Feedback
  *
  * `from` দিলে কাজটা অন্য দিনের — হোমের জমে থাকা মাইলফলকে দিনের লিংক দেখায়।
  */
 export default function TaskItem({ task, from }: { task: Task; from?: { code: string; label: string } }) {
   const mounted = useMounted();
-  const { isTaskDone, taskDoneDate, toggleTask } = useProgress();
+  const { isTaskDone, taskDoneDate, toggleTask, noteFor, setNote } = useProgress();
 
   const checked = mounted && isTaskDone(task.id);
   const doneOn = checked ? taskDoneDate(task.id) : null;
@@ -65,6 +66,19 @@ export default function TaskItem({ task, from }: { task: Task; from?: { code: st
           <p className="t-caption mt-2">
             এখনই না দেখে ৩ লাইনে লিখুন — যেখানে আটকাবেন, সেটাই ফাঁক। কাল থেকে ঝালাইয়ে ফিরবে। 🧠 Feynman
           </p>
+        )}
+
+        {checked && (
+          <label className="mt-2 flex flex-col gap-1">
+            <span className="t-caption">কোথায় আটকালেন?</span>
+            <input
+              type="text"
+              value={noteFor(task.id)}
+              onChange={(event) => setNote(task.id, event.target.value)}
+              placeholder="যেমন: root cause শব্দটা মনে আসেনি"
+              className="surface-well t-body w-full p-2 text-xs"
+            />
+          </label>
         )}
 
         <PrincipleChips principles={task.principles} />

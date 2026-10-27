@@ -150,6 +150,8 @@ function ReviewRow({
   onStuck?: () => void;
 }) {
   const { item, state, next } = row;
+  const { noteFor } = useProgress();
+  const note = noteFor(item.id);
   const offset = next ? daysBetween(today, next) : 0;
 
   return (
@@ -157,6 +159,8 @@ function ReviewRow({
       <Markdown inline className="task-text text-sm">
         {item.text}
       </Markdown>
+
+      {note && <p className="t-caption">আগেরবার আটকেছিলেন: {note}</p>}
 
       <div className="flex flex-wrap items-center gap-1.5">
         <Link href={`/day/${item.dayCode}/`} className="chip chip--accent">

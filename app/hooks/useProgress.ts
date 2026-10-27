@@ -16,6 +16,7 @@ import { SITE } from "../lib/site";
  *   <prefix>:v1:task    → { [taskId]: "YYYY-MM-DD" }   কাজ শেষের স্থানীয় তারিখ
  *   <prefix>:v1:check   → { ["d007" | "b1"]: "yes" | "no" }   দিন-শেষ / ব্লক-শেষ
  *   <prefix>:v1:review  → { [taskId]: ReviewState }
+ *   <prefix>:v1:note    → { [taskId]: string }   কোথায় আটকালেন — টিকের পরে এক লাইন
  *   <prefix>:v1:meta    → { updatedAt: ISOString }   সর্বশেষ sync-এর timestamp
  *
  * ঝালাইয়ের অবস্থা শুধু "মনে ছিল" / "আটকে গেছি" চাপলে লেখা হয়। তার আগে পর্যন্ত
@@ -25,6 +26,7 @@ const START_KEY = `${SITE.storagePrefix}:v1:start`;
 const TASK_KEY = `${SITE.storagePrefix}:v1:task`;
 const CHECK_KEY = `${SITE.storagePrefix}:v1:check`;
 const REVIEW_KEY = `${SITE.storagePrefix}:v1:review`;
+const NOTE_KEY = `${SITE.storagePrefix}:v1:note`;
 const META_KEY = `${SITE.storagePrefix}:v1:meta`;
 
 export type Answer = "yes" | "no";
@@ -32,6 +34,7 @@ export type Answer = "yes" | "no";
 type DoneMap = Record<string, string>;
 type Answers = Record<string, Answer>;
 type Reviews = Record<string, ReviewState>;
+type Notes = Record<string, string>;
 type Meta = { updatedAt: string };
 
 const neverChanges = () => () => {};
@@ -50,11 +53,12 @@ export function useProgress() {
   const [tasks, setTasks] = useLocalStorage<DoneMap>(TASK_KEY, {});
   const [answers, setAnswers] = useLocalStorage<Answers>(CHECK_KEY, {});
   const [reviews, setReviews] = useLocalStorage<Reviews>(REVIEW_KEY, {});
+  const [notes, setNotes] = useLocalStorage<Notes>(NOTE_KEY, {});
   const [meta, setMeta] = useLocalStorage<Meta>(META_KEY, { updatedAt: "" });
 
   const sync = useProgressSync(
-    { start: startRaw, tasks, answers, reviews },
-    { start: setStartRaw, tasks: setTasks, answers: setAnswers, reviews: setReviews },
+    { start: startRaw, tasks, answers, reviews, notes },
+    { start: setStartRaw, tasks: setTasks, answers: setAnswers, reviews: setReviews, notes: setNotes },
     meta,
     setMeta,
   );
@@ -135,6 +139,20 @@ export function useProgress() {
     [setReviews],
   );
 
+  const noteFor = useCallback((id: string): string => notes[id] ?? "", [notes]);
+
+  /** ফাঁকা লেখা = note মুছে ফেলা, যাতে cloud-এ খালি key না জমে */
+  const setNote = useCallback(
+    (id: string, text: string) =>
+      setNotes((prev) => {
+        const next = { ...prev };
+        if (text.trim()) next[id] = text;
+        else delete next[id];
+        return next;
+      }),
+    [setNotes],
+  );
+
   return {
     start,
     setStart,
@@ -147,6 +165,8 @@ export function useProgress() {
     reviewState,
     remembered,
     stuck,
+    noteFor,
+    setNote,
     sync,
   };
 }
