@@ -69,16 +69,20 @@ export default function TaskItem({ task, from }: { task: Task; from?: { code: st
         )}
 
         {checked && (
-          <label className="mt-2 flex flex-col gap-1">
-            <span className="t-caption">কোথায় আটকালেন?</span>
-            <input
-              type="text"
+          /* ভাঁজ করা — পুরো ইংরেজির note ৪০ লাইনও হয়, খোলা থাকলে দিনের পাতা লম্বা হয় */
+          <details className="mt-2">
+            <summary className="t-label cursor-pointer select-none" suppressHydrationWarning>
+              কোথায় আটকালেন? · {noteFor(task.id).trim() ? "লেখা আছে" : "ফাঁকা"}
+            </summary>
+            <textarea
+              rows={4}
               value={noteFor(task.id)}
               onChange={(event) => setNote(task.id, event.target.value)}
               placeholder="যেমন: root cause শব্দটা মনে আসেনি"
-              className="surface-well t-body w-full p-2 text-xs"
+              aria-label="কোথায় আটকালেন?"
+              className="surface-well t-body mt-2 w-full resize-y p-2 text-xs"
             />
-          </label>
+          </details>
         )}
 
         <PrincipleChips principles={task.principles} />

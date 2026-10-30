@@ -160,7 +160,13 @@ function ReviewRow({
         {item.text}
       </Markdown>
 
-      {note && <p className="t-caption">আগেরবার আটকেছিলেন: {note}</p>}
+      {/* বন্ধ থাকে — আগে না দেখে করা, তারপর মিলিয়ে দেখা */}
+      {note && (
+        <details>
+          <summary className="t-label cursor-pointer select-none">আগের note</summary>
+          <p className="t-caption mt-2 whitespace-pre-line">{note}</p>
+        </details>
+      )}
 
       <div className="flex flex-wrap items-center gap-1.5">
         <Link href={`/day/${item.dayCode}/`} className="chip chip--accent">
